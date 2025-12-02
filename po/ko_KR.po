@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DarkTable\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-28 18:37+0100\n"
-"PO-Revision-Date: 2025-12-02 16:03+0900\n"
+"PO-Revision-Date: 2025-12-02 16:21+0900\n"
 "Last-Translator: Hwanyong Lee <hwan@ajou.ac.kr>\n"
 "Language-Team: Ajou Univ.(함도혁,윤하윤,정채영,김민채,김윤중)\n"
 "Language: ko_KR\n"
@@ -1149,14 +1149,14 @@ msgstr "darkroom"
 
 #: ../build/bin/preferences_gen.h:2949
 msgid "scroll down to increase mask parameters"
-msgstr "아래로 스크롤하여 마스크 파라메터 증가"
+msgstr "아래로 스크롤하여 매스크 파라메터 증가"
 
 #: ../build/bin/preferences_gen.h:2957
 msgid ""
 "when using the mouse scroll wheel to change mask parameters, scroll down to increase the mask size, feather size, opacity, brush hardness and gradient curvature\n"
 "by default scrolling up increases these parameters"
 msgstr ""
-"마우스 휠로 마스크 파라메터를 변경할 때, 아래로 스크롤하면 마스크 크기,페더 크기, 불투명도, 브러시 경도, 그라디언트 곡률이 증가합니다.\n"
+"마우스 휠로 매스크 파라메터를 변경할 때, 아래로 스크롤하면 매스크 크기,페더 크기, 불투명도, 브러시 경도, 그라디언트 곡률이 증가합니다.\n"
 "기본적으로는 스크롤을 올릴 때 이 파라메터 값들이 증가합니다"
 
 #: ../build/bin/preferences_gen.h:2966
@@ -1219,7 +1219,7 @@ msgstr "개별 색상 채널 표시"
 
 #: ../build/bin/preferences_gen.h:3102
 msgid "defines how color channels are displayed when activated in the parametric masks feature."
-msgstr "파라메트릭 마스크 기능에서 활성화 시 색상 채널 표시 방식을 정의합니다."
+msgstr "파라메트릭 매스크 기능에서 활성화 시 색상 채널 표시 방식을 정의합니다."
 
 #: ../build/bin/preferences_gen.h:3111
 msgid "hide built-in presets for processing modules"
@@ -1297,11 +1297,11 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:3248
 msgid "show mask indicator in module headers"
-msgstr "모듈 헤더에 마스크 인디케이터 표시"
+msgstr "모듈 헤더에 매스크 인디케이터 표시"
 
 #: ../build/bin/preferences_gen.h:3256
 msgid "if enabled, an icon will be shown in the header of any processing modules that have a mask applied"
-msgstr "활성화 시 마스크가 적용된 처리 모듈 헤더에 아이콘이 표시됩니다"
+msgstr "활성화 시 매스크가 적용된 처리 모듈 헤더에 아이콘이 표시됩니다"
 
 #: ../build/bin/preferences_gen.h:3265
 msgid "prompt for name on addition of new instance"
@@ -1373,11 +1373,11 @@ msgstr "이 폴더(및 하위 폴더)에는 LUT 3D 모듈에서 사용하는 LUT
 
 #: ../build/bin/preferences_gen.h:3392
 msgid "raster mask files root folder"
-msgstr "래스터 마스크 파일 루트 폴더"
+msgstr "래스터 매스크 파일 루트 폴더"
 
 #: ../build/bin/preferences_gen.h:3407
 msgid "this folder (and sub-folders) contains PFM files used by the raster mask import module. (restart required)"
-msgstr "이 폴더(및 하위 폴더)에는 래스터 마스크 가져오기 모듈에서 사용하는 PFM 파일이 포함되어 있습니다. (재시작 필요)"
+msgstr "이 폴더(및 하위 폴더)에는 래스터 매스크 가져오기 모듈에서 사용하는 PFM 파일이 포함되어 있습니다. (재시작 필요)"
 
 #: ../build/bin/preferences_gen.h:3416
 msgid "auto-apply pixel workflow defaults"
@@ -1921,11 +1921,11 @@ msgstr "위 규칙 적용 후 모듈 인스턴스가 활성 상태라면 비활�
 
 #: ../build/bin/preferences_gen.h:4478
 msgid "prefer unmasked instances"
-msgstr "마스크 해제된 인스턴스 우선"
+msgstr "매스크 해제된 인스턴스 우선"
 
 #: ../build/bin/preferences_gen.h:4486
 msgid "after applying the above rules, if instances of the module are unmasked, ignore masked instances"
-msgstr "위 규칙 적용 후 마스크가 해제된 인스턴스가 있으면 마스크된 인스턴스는 무시합니다"
+msgstr "위 규칙 적용 후 매스크가 해제된 인스턴스가 있으면 매스크된 인스턴스는 무시합니다"
 
 #: ../build/bin/preferences_gen.h:4495
 msgid "selection order"
@@ -2115,7 +2115,7 @@ msgstr "안개 제거 (강하게, 휘도만)"
 
 #: ../build/bin/styles_string.h:18
 msgid "desaturate and darken red pupils in flash photos.  add drawn masks to limit affected areas to just the eyes if necessary."
-msgstr "플래시 사진에서 붉은 눈동자를 채도 감소 및 어둡게 처리합니다. 필요하다면 마스크를 추가해 눈동자에만 적용할 수 있습니다."
+msgstr "플래시 사진에서 붉은 눈동자를 채도 감소 및 어둡게 처리합니다. 필요하다면 매스크를 추가해 눈동자에만 적용할 수 있습니다."
 
 #: ../build/bin/styles_string.h:19
 msgid "effects"
@@ -3458,7 +3458,7 @@ msgstr "전역 밝기"
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:394
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:573
 msgid "mask middle-gray fulcrum"
-msgstr "마스크 중간 회색 중심점"
+msgstr "매스크 중간 회색 중심점"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:400
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:577
@@ -3955,7 +3955,7 @@ msgstr "4차 이방성"
 #: ../build/lib/darktable/plugins/introspection_diffuse.c:171
 #: ../build/lib/darktable/plugins/introspection_diffuse.c:280
 msgid "luminance masking threshold"
-msgstr "휘도 마스킹 임계값"
+msgstr "휘도 매스킹 임계값"
 
 #: ../build/lib/darktable/plugins/introspection_diffuse.c:177
 #: ../build/lib/darktable/plugins/introspection_diffuse.c:284
@@ -5250,17 +5250,17 @@ msgstr "가장자리 교저/페더링"
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:217
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:338
 msgid "mask quantization"
-msgstr "마스크 양자화"
+msgstr "매스크 양자화"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:223
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:342
 msgid "mask contrast compensation"
-msgstr "마스크 대비 보정"
+msgstr "매스크 대비 보정"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:229
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:346
 msgid "mask exposure compensation"
-msgstr "마스크 노출 보정"
+msgstr "매스크 노출 보정"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:235
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:350
@@ -8326,11 +8326,11 @@ msgstr "사이드카 동기화"
 
 #: ../src/develop/blend.c:299
 msgid "detail mask blending error"
-msgstr "디테일 마스크 블랜딩 오류"
+msgstr "디테일 매스크 블랜딩 오류"
 
 #: ../src/develop/blend.c:845
 msgid "detail mask CL blending problem"
-msgstr "디테일 마스크 CL 블랜딩에 문제가 있습니다"
+msgstr "디테일 매스크 CL 블랜딩에 문제가 있습니다"
 
 #: ../src/develop/blend_gui.c:47 ../src/libs/live_view.c:396
 msgctxt "blendmode"
@@ -8554,21 +8554,21 @@ msgstr "균일하게"
 #: ../src/develop/blend_gui.c:157 ../src/develop/blend_gui.c:2765
 #: ../src/develop/blend_gui.c:3435 ../src/develop/imageop.c:2802
 msgid "drawn mask"
-msgstr "드로잉 마스크"
+msgstr "드로잉 매스크"
 
 #: ../src/develop/blend_gui.c:159 ../src/develop/blend_gui.c:2559
 #: ../src/develop/blend_gui.c:3444 ../src/develop/imageop.c:2804
 msgid "parametric mask"
-msgstr "파라메트릭 마스크"
+msgstr "파라메트릭 매스크"
 
 #: ../src/develop/blend_gui.c:161 ../src/develop/blend_gui.c:2971
 #: ../src/develop/blend_gui.c:3467 ../src/develop/imageop.c:2806
 msgid "raster mask"
-msgstr "래스터 마스크"
+msgstr "래스터 매스크"
 
 #: ../src/develop/blend_gui.c:163 ../src/develop/blend_gui.c:3456
 msgid "drawn & parametric mask"
-msgstr "드로잉 & 파라메트릭 마스크"
+msgstr "드로잉 & 파라메트릭 매스크"
 
 #: ../src/develop/blend_gui.c:168
 msgid "exclusive"
@@ -8798,7 +8798,7 @@ msgstr ""
 
 #: ../src/develop/blend_gui.c:2563
 msgid "reset blend mask settings"
-msgstr "블랜딩 마스크 설정 초기화"
+msgstr "블랜딩 매스크 설정 초기화"
 
 #: ../src/develop/blend_gui.c:2570 ../src/iop/atrous.c:1789
 #: ../src/iop/colorzones.c:2622 ../src/iop/denoiseprofile.c:3771
@@ -8841,7 +8841,7 @@ msgstr "모든 채널의 극성 반전"
 
 #: ../src/develop/blend_gui.c:2619
 msgid "toggle polarity. best seen by enabling 'display mask'"
-msgstr "극성 전환. '마스크 표시'를 활성화할 때 잘 보임"
+msgstr "극성 전환. '매스크 표시'를 활성화할 때 잘 보임"
 
 #: ../src/develop/blend_gui.c:2647
 msgid ""
@@ -8853,7 +8853,7 @@ msgstr ""
 "더블 클릭하여 초기화.\n"
 "'a' 키를 눌러 슬라이더 모드 전환.\n"
 "'c' 키를 눌러 채널 데이터 보기 전환.\n"
-"'m' 키를 눌러 마스크 보기 전환."
+"'m' 키를 눌러 매스크 보기 전환."
 
 #: ../src/develop/blend_gui.c:2671 ../src/develop/blend_gui.c:3548
 #: ../src/iop/agx.c:1800 ../src/iop/agx.c:2022 ../src/iop/agx.c:2031
@@ -8890,7 +8890,7 @@ msgstr "부스트 계수"
 
 #: ../src/develop/blend_gui.c:2676
 msgid "adjust the boost factor of the channel mask"
-msgstr "채널 마스크의 부스트 계수 조정"
+msgstr "채널 매스크의 부스트 계수 조정"
 
 #: ../src/develop/blend_gui.c:2713
 #, c-format
@@ -8901,15 +8901,15 @@ msgstr[0] "%d개 도형 사용됨"
 #: ../src/develop/blend_gui.c:2718 ../src/develop/blend_gui.c:2767
 #: ../src/develop/blend_gui.c:2856 ../src/develop/blend_gui.c:2980
 msgid "no mask used"
-msgstr "사용하는 마스크 없음"
+msgstr "사용하는 매스크 없음"
 
 #: ../src/develop/blend_gui.c:2777
 msgid "toggle polarity of drawn mask"
-msgstr "드로잉 마스크의 극성 전환"
+msgstr "드로잉 매스크의 극성 전환"
 
 #: ../src/develop/blend_gui.c:2786
 msgid "show and edit mask elements"
-msgstr "마스크 요소 표시 및 편집"
+msgstr "매스크 요소 표시 및 편집"
 
 #: ../src/develop/blend_gui.c:2787
 msgid "show and edit in restricted mode (no moving/resizing of shapes)"
@@ -8968,7 +8968,7 @@ msgstr "여러 개의 원 추가"
 
 #: ../src/develop/blend_gui.c:2973
 msgid "toggle polarity of raster mask"
-msgstr "래스터 마스크의 극성 전환"
+msgstr "래스터 매스크의 극성 전환"
 
 #: ../src/develop/blend_gui.c:3123
 msgid "normal & difference"
@@ -9016,11 +9016,11 @@ msgstr "블랜딩 옵션"
 #. global section holding the eye and showmask buttons
 #: ../src/develop/blend_gui.c:3494
 msgid "blend mask"
-msgstr "블랜딩 마스크"
+msgstr "블랜딩 매스크"
 
 #: ../src/develop/blend_gui.c:3498
 msgid "display mask and/or color channel"
-msgstr "마스크 및/또는 색상 채널 표시"
+msgstr "매스크 및/또는 색상 채널 표시"
 
 #: ../src/develop/blend_gui.c:3503
 msgid ""
@@ -9029,21 +9029,21 @@ msgid ""
 "shift+click to display channel.\n"
 "hover over parametric mask slider to select channel for display"
 msgstr ""
-"마스크 및/또는 색상 채널 표시.\n"
-"Ctrl+클릭으로 마스크 표시,\n"
+"매스크 및/또는 색상 채널 표시.\n"
+"Ctrl+클릭으로 매스크 표시,\n"
 "Shift+클릭으로 컬러 채널 표시합니다.\n"
-"파라메트릭 마스크 슬라이더 위에 마우스를 올려 표시할 채널 선택"
+"파라메트릭 매스크 슬라이더 위에 마우스를 올려 표시할 채널 선택"
 
 #: ../src/develop/blend_gui.c:3510
 msgid "temporarily switch off blend mask"
-msgstr "블랜딩 마스크 일시 비활성화"
+msgstr "블랜딩 매스크 일시 비활성화"
 
 #: ../src/develop/blend_gui.c:3515
 msgid ""
 "temporarily switch off blend mask.\n"
 "only for module in focus"
 msgstr ""
-"블랜딩 마스크를 일시적으로 비활성화합니다.\n"
+"블랜딩 매스크를 일시적으로 비활성화합니다.\n"
 "현재 선택된 모듈에만 해당"
 
 #: ../src/develop/blend_gui.c:3525
@@ -9084,11 +9084,11 @@ msgstr "블랜딩 불투명도 설정"
 
 #: ../src/develop/blend_gui.c:3565 ../src/libs/history.c:952
 msgid "combine masks"
-msgstr "마스크 결합"
+msgstr "매스크 결합"
 
 #: ../src/develop/blend_gui.c:3567
 msgid "how to combine individual drawn mask and different channels of parametric mask"
-msgstr "개별 드로잉 마스크와 파라메트릭 마스크 여러 채널 결합 방법"
+msgstr "개별 드로잉 매스크와 파라메트릭 매스크 여러 채널 결합 방법"
 
 #: ../src/develop/blend_gui.c:3574
 msgid "details threshold"
@@ -9100,7 +9100,7 @@ msgid ""
 "positive values select areas with strong details,\n"
 "negative values select flat areas"
 msgstr ""
-"디테일 마스크 임계값을 조정합니다 (RAW 데이터 사용),\n"
+"디테일 매스크 임계값을 조정합니다 (RAW 데이터 사용),\n"
 "양수 값은 디테일이 강한 영역을 선택합니다,\n"
 "음수 값은 디테일이 약한 (평탄한) 영역을 선택합니다"
 
@@ -9113,8 +9113,8 @@ msgid ""
 "choose to guide mask by input or output image and\n"
 "choose to apply feathering before or after mask blur"
 msgstr ""
-"마스크를 입력 또는 출력 이미지를 기반으로 선택하고\n"
-"페더링 적용 시점을 마스크 블러 전 또는 후로 선택하세요"
+"매스크를 입력 또는 출력 이미지를 기반으로 선택하고\n"
+"페더링 적용 시점을 매스크 블러 전 또는 후로 선택하세요"
 
 #: ../src/develop/blend_gui.c:3595 ../src/libs/history.c:954
 msgid "feathering radius"
@@ -9138,12 +9138,12 @@ msgstr "블러 반지름"
 
 #: ../src/develop/blend_gui.c:3607
 msgid "radius for gaussian blur of blend mask"
-msgstr "블랜딩 마스크 가우시안 블러 반지름"
+msgstr "블랜딩 매스크 가우시안 블러 반지름"
 
 #: ../src/develop/blend_gui.c:3613 ../src/iop/retouch.c:2682
 #: ../src/libs/history.c:950
 msgid "mask opacity"
-msgstr "마스크 불투명도"
+msgstr "매스크 불투명도"
 
 #: ../src/develop/blend_gui.c:3617
 msgid ""
@@ -9151,19 +9151,19 @@ msgid ""
 "without affecting fully transparent/fully opaque regions"
 msgstr ""
 "완전히 투명한/완전히 불투명한 영역에 영향을 주지 않고\n"
-"블렌드 마스크의 톤 곡선을 이동하고 기울여 밝기를 조정합니다"
+"블렌드 매스크의 톤 곡선을 이동하고 기울여 밝기를 조정합니다"
 
 #: ../src/develop/blend_gui.c:3622 ../src/libs/history.c:958
 msgid "mask contrast"
-msgstr "마스크 대비"
+msgstr "매스크 대비"
 
 #: ../src/develop/blend_gui.c:3626
 msgid "gives the tone curve of the blend mask an s-like shape to adjust its contrast"
-msgstr "블렌드 마스크의 톤 커브를 S자 형태로 변경하여 대비를 조정합니다"
+msgstr "블렌드 매스크의 톤 커브를 S자 형태로 변경하여 대비를 조정합니다"
 
 #: ../src/develop/blend_gui.c:3629
 msgid "mask refinement"
-msgstr "마스크 세밀 조정"
+msgstr "매스크 세밀 조정"
 
 #: ../src/develop/develop.c:773
 msgid "autosaving history has been disabled for this image because of a very large history or a slow drive being used"
@@ -9225,11 +9225,11 @@ msgstr "'%s'에 내부 오류가 있습니다"
 
 #: ../src/develop/imageop.c:2796
 msgid "unknown mask"
-msgstr "알 수 없는 마스크"
+msgstr "알 수 없는 매스크"
 
 #: ../src/develop/imageop.c:2800
 msgid "drawn + parametric mask"
-msgstr "드로잉 + 파라메트릭 마스크"
+msgstr "드로잉 + 파라메트릭 매스크"
 
 #: ../src/develop/imageop.c:2809
 #, c-format
@@ -9585,7 +9585,7 @@ msgstr "`%s'의 사본"
 #: ../src/develop/masks/masks.c:984
 #, c-format
 msgid "%s: mask version mismatch: %d != %d"
-msgstr "%s: 마스크 버전 불일치: %d != %d"
+msgstr "%s: 매스크 버전 불일치: %d != %d"
 
 #: ../src/develop/masks/masks.c:1244 ../src/develop/masks/masks.c:1894
 #, c-format
@@ -9602,7 +9602,7 @@ msgstr "다음과 동일한 도형 사용"
 
 #: ../src/develop/masks/masks.c:1977
 msgid "masks can not contain themselves"
-msgstr "마스크는 자기 자신을 포함할 수 없습니다"
+msgstr "매스크는 자기 자신을 포함할 수 없습니다"
 
 #: ../src/develop/masks/path.c:3944
 msgid "[PATH creation] add a smooth node"
@@ -9749,8 +9749,8 @@ msgid ""
 "raster mask is ignored."
 msgstr ""
 "모듈 '%s'이 픽셀 파이프라인에서 나중에 처리되는\n"
-"모듈 '%s'에서 래스터 마스크를 가져올 수 없습니다.\n"
-"래스터 마스크는 무시합니다."
+"모듈 '%s'에서 래스터 매스크를 가져올 수 없습니다.\n"
+"래스터 매스크는 무시합니다."
 
 #: ../src/develop/tiling.c:817 ../src/develop/tiling.c:1157
 #, c-format
@@ -13613,7 +13613,7 @@ msgstr "항목"
 #: ../src/gui/hist_dialog.c:314 ../src/gui/styles_dialog.c:707
 #: ../src/gui/styles_dialog.c:716
 msgid "mask"
-msgstr "마스크"
+msgstr "매스크"
 
 #: ../src/gui/hist_dialog.c:372
 msgid "can't copy history out of unaltered image"
@@ -16968,7 +16968,7 @@ msgid ""
 msgstr ""
 "색상 캘리브레이션 인스턴스가 2개 혹은 그 이상 적용되어 있으며,\n"
 "모두 색순응을 적용하고 있습니다.\n"
-"마스크를 쓰거나 사용 목적을 알고 있지 않은 경우,\n"
+"매스크를 쓰거나 사용 목적을 알고 있지 않은 경우,\n"
 "일관성이 유지되지 않을  있습니다."
 
 #: ../src/iop/channelmixerrgb.c:2067
@@ -17917,7 +17917,7 @@ msgid ""
 "color grading tools using alpha masks to separate\n"
 "shadows, mid-tones and highlights"
 msgstr ""
-"알파 마스크를 사용해 쉐도우, 중간 톤 및 하이라이트를\n"
+"알파 매스크를 사용해 쉐도우, 중간 톤 및 하이라이트를\n"
 "분리하는 컬러 그레이딩 도구"
 
 #: ../src/iop/colorbalancergb.c:524
@@ -17943,7 +17943,7 @@ msgstr "색상 균형은 RGB 입력에서만 작동합니다"
 #: ../src/iop/colorbalancergb.c:1423 ../src/iop/colorzones.c:2381
 #: ../src/iop/retouch.c:2056 ../src/iop/toneequal.c:1942
 msgid "cannot display masks when the blending mask is displayed"
-msgstr "혼합 마스크가 표시되는 중에는 마스크를 표시할 수 없습니다"
+msgstr "혼합 매스크가 표시되는 중에는 매스크를 표시할 수 없습니다"
 
 #. Page master
 #: ../src/iop/colorbalancergb.c:1784
@@ -18115,7 +18115,7 @@ msgstr "중간 톤 색상 지수의 채도(크로마)"
 #. Page masks
 #: ../src/iop/colorbalancergb.c:1962
 msgid "masks"
-msgstr "마스크"
+msgstr "매스크"
 
 #: ../src/iop/colorbalancergb.c:1962
 msgid "isolate luminances"
@@ -18136,7 +18136,7 @@ msgstr "전체 톤 범위에서 쉐도우 가중치"
 
 #: ../src/iop/colorbalancergb.c:1987
 msgid "position of the middle-gray reference for masking"
-msgstr "마스킹에 사용할 중간 회색 참조 위치"
+msgstr "매스킹에 사용할 중간 회색 참조 위치"
 
 #: ../src/iop/colorbalancergb.c:1993
 msgid "weights of highlights over the whole tonal range"
@@ -18158,7 +18158,7 @@ msgstr "파워 함수 정규화에 사용되는 최대 회색 휘도 값"
 #: ../src/iop/colorbalancergb.c:2009
 msgctxt "section"
 msgid "mask preview settings"
-msgstr "마스크 미리보기 설정"
+msgstr "매스크 미리보기 설정"
 
 #: ../src/iop/colorbalancergb.c:2013 ../src/iop/colorbalancergb.c:2018
 msgid "select color of the checkerboard from a swatch"
@@ -19022,7 +19022,7 @@ msgstr ""
 
 #: ../src/iop/demosaic.c:1788
 msgid "toggle mask visualization"
-msgstr "마스크 시각화 전환"
+msgstr "매스크 시각화 전환"
 
 #: ../src/iop/demosaic.c:1792
 msgid ""
@@ -19701,8 +19701,8 @@ msgid ""
 "any higher value excludes pixels with luminance lower than the threshold.\n"
 "this can be used to inpaint highlights."
 msgstr ""
-"마스크에 사용할 휘도 임계값을 설정합니다.\n"
-"0으로 설정하면 휘도 마스킹이 비활성화되며 이미지 전체에 모듈이 적용됩니다.\n"
+"매스크에 사용할 휘도 임계값을 설정합니다.\n"
+"0으로 설정하면 휘도 매스킹이 비활성화되며 이미지 전체에 모듈이 적용됩니다.\n"
 "0보다 큰 값을 설정하면 임계값보다 휘도가 낮은 픽셀은 제외됩니다.\n"
 "이 설정은 하이라이트를 복원하는 데 사용할 수 있습니다."
 
@@ -20341,7 +20341,7 @@ msgstr ""
 #. Highlight Reconstruction Mask
 #: ../src/iop/filmicrgb.c:4461 ../src/iop/filmicrgb.c:4462
 msgid "display highlight reconstruction mask"
-msgstr "하이라이트 복원 마스크 표시"
+msgstr "하이라이트 복원 매스크 표시"
 
 #: ../src/iop/filmicrgb.c:4468
 msgctxt "section"
@@ -21202,7 +21202,7 @@ msgstr "적용된 광학 비네팅 보정의 정도"
 
 #: ../src/iop/lens.cc:4592
 msgid "show applied optical vignette correction mask"
-msgstr "적용된 광학 비네팅 보정 마스크 표시"
+msgstr "적용된 광학 비네팅 보정 매스크 표시"
 
 #: ../src/iop/lens.cc:4596
 msgid "radius of uncorrected center"
@@ -21456,7 +21456,7 @@ msgstr "이미지에서 저주파 분리"
 
 #: ../src/iop/lowpass.c:555
 msgid "local contrast mask"
-msgstr "부분 대비 마스크"
+msgstr "부분 대비 매스크"
 
 #: ../src/iop/lowpass.c:580
 msgid "radius of gaussian/bilateral blur"
@@ -21665,7 +21665,7 @@ msgstr "보간 방법 선택"
 
 #: ../src/iop/mask_manager.c:42 ../src/libs/masks.c:58
 msgid "mask manager"
-msgstr "마스크 관리자"
+msgstr "매스크 관리자"
 
 #: ../src/iop/monochrome.c:97
 msgid ""
@@ -22167,48 +22167,48 @@ msgstr ""
 
 #: ../src/iop/rasterfile.c:88
 msgid "external raster masks"
-msgstr "외부 래스터 마스크"
+msgstr "외부 래스터 매스크"
 
 #: ../src/iop/rasterfile.c:93
 msgid "raster|mask"
-msgstr "래스터|마스크"
+msgstr "래스터|매스크"
 
 #: ../src/iop/rasterfile.c:99
 msgid "read PFM files recorded for use as raster masks"
-msgstr "래스터 마스크로 사용할 PFM 파일을 읽기"
+msgstr "래스터 매스크로 사용할 PFM 파일을 읽기"
 
 #: ../src/iop/rasterfile.c:168
 #, c-format
 msgid "can't read raster mask file '%s'"
-msgstr "래스터 마스크 파일 '%s'을(를) 읽을 수 없습니다"
+msgstr "래스터 매스크 파일 '%s'을(를) 읽을 수 없습니다"
 
 #: ../src/iop/rasterfile.c:254
 msgid "raster mask files root folder not defined"
-msgstr "래스터 마스크 파일의 루트 폴더가 정의되지 않았습니다"
+msgstr "래스터 매스크 파일의 루트 폴더가 정의되지 않았습니다"
 
 #: ../src/iop/rasterfile.c:261
 msgid "select raster mask file"
-msgstr "래스터 마스크 파일 선택"
+msgstr "래스터 매스크 파일 선택"
 
 #: ../src/iop/rasterfile.c:295
 msgid "selected file not within raster masks root folder"
-msgstr "선택한 파일이 래스터 마스크 루트 폴더 내에 없습니다"
+msgstr "선택한 파일이 래스터 매스크 루트 폴더 내에 없습니다"
 
 #: ../src/iop/rasterfile.c:591
 msgid "select the RGB channels taken into account to generate the raster mask"
-msgstr "래스터 마스크 생성을 위해 고려할 RGB 채널을 선택합니다"
+msgstr "래스터 매스크 생성을 위해 고려할 RGB 채널을 선택합니다"
 
 #: ../src/iop/rasterfile.c:595
 msgid ""
 "select the PFM file recorded as a raster mask,\n"
 "CAUTION: path must be set in preferences/processing before choosing"
 msgstr ""
-"래스터 마스크로 녹화된 PFM 파일을 선택하세요\n"
+"래스터 매스크로 녹화된 PFM 파일을 선택하세요\n"
 "주의: 선택 전에 환경설정/처리에서 경로를 설정해야 합니다"
 
 #: ../src/iop/rasterfile.c:601
 msgid "the mask file path is saved with the image history"
-msgstr "마스크 파일 경로는 이미지 히스토리와 함께 저장됩니다"
+msgstr "매스크 파일 경로는 이미지 히스토리와 함께 저장됩니다"
 
 #. * let's fill the encapsulating widgets
 #. mode of operation
@@ -22350,7 +22350,7 @@ msgstr "기하학적 및 주파수 기반, RGB"
 
 #: ../src/iop/retouch.c:1678
 msgid "cannot display scales when the blending mask is displayed"
-msgstr "블렌딩 마스크가 표시될 때 눈금 표시 불가"
+msgstr "블렌딩 매스크가 표시될 때 눈금 표시 불가"
 
 #: ../src/iop/retouch.c:2032 ../src/iop/retouch.c:2034
 #: ../src/iop/retouch.c:2036 ../src/iop/retouch.c:2038
@@ -22450,7 +22450,7 @@ msgstr ""
 
 #: ../src/iop/retouch.c:2557
 msgid "display masks"
-msgstr "마스크 표시"
+msgstr "매스크 표시"
 
 #: ../src/iop/retouch.c:2563
 msgid "temporarily switch off shapes"
@@ -22727,7 +22727,7 @@ msgstr "샤프닝"
 
 #: ../src/iop/sharpen.c:92
 msgid "sharpen the details in the image using a standard UnSharp Mask (USM)"
-msgstr "표준 언샤프 마스크(USM)를 사용해 이미지의 디테일을 선명하게 만듭니다"
+msgstr "표준 언샤프 매스크(USM)를 사용해 이미지의 디테일을 선명하게 만듭니다"
 
 #: ../src/iop/sharpen.c:94
 msgid "linear or non-linear, Lab, display or scene-referred"
@@ -23243,11 +23243,11 @@ msgstr "단순 톤 커브"
 
 #: ../src/iop/toneequal.c:498
 msgid "mask blending | all purposes"
-msgstr "마스크 블렌딩 | 일반 용도"
+msgstr "매스크 블렌딩 | 일반 용도"
 
 #: ../src/iop/toneequal.c:505
 msgid "mask blending | people with backlight"
-msgstr "마스크 블렌딩 | 역광 인물"
+msgstr "매스크 블렌딩 | 역광 인물"
 
 #: ../src/iop/toneequal.c:522
 msgid "compress shadows/highlights | EIGF | strong"
@@ -23409,7 +23409,7 @@ msgid ""
 "for a better control of the exposure correction with the available nodes."
 msgstr ""
 "사용 가능한 노드를 통해 노출 보정을 더 잘 제어할 수 있도록\n"
-"마스크의 평균 노출을 채널별로 이동시키는 데 사용합니다."
+"매스크의 평균 노출을 채널별로 이동시키는 데 사용합니다."
 
 #: ../src/iop/toneequal.c:3323
 msgid "auto-adjust the average exposure"
@@ -23423,7 +23423,7 @@ msgid ""
 "for a better control of the exposure correction."
 msgstr ""
 "가이드 필터의 평균화 효과를 상쇄하고\n"
-"약 -4EV 부근에서 마스크 대비를 확장하는 데 사용합니다\n"
+"약 -4EV 부근에서 매스크 대비를 확장하는 데 사용합니다\n"
 "이를 통해 노출 히스토그램을 더 많은 채널에 분산시켜\n"
 "노출 보정을 더 정밀하게 제어할 수 있습니다."
 
@@ -23434,14 +23434,14 @@ msgstr "대비를 자동 조정"
 #. Masking options
 #: ../src/iop/toneequal.c:3339
 msgid "masking"
-msgstr "마스킹"
+msgstr "매스킹"
 
 #: ../src/iop/toneequal.c:3344
 msgid ""
 "preview the mask and chose the estimator that gives you the\n"
 "higher contrast between areas to dodge and areas to burn"
 msgstr ""
-"마스크를 미리 보고, 밝게 할 영역과 어둡게 할 영역 간의\n"
+"매스크를 미리 보고, 밝게 할 영역과 어둡게 할 영역 간의\n"
 "대비가 더 높은 추정기를 선택하세요"
 
 #: ../src/iop/toneequal.c:3347
@@ -23489,7 +23489,7 @@ msgid ""
 "but may lead to inaccurate edges taping and halos"
 msgstr ""
 "페더링의 정밀도:\n"
-"높은 값은 마스크가 경계를 더 정밀하게 따라가도록 하지만\n"
+"높은 값은 매스크가 경계를 더 정밀하게 따라가도록 하지만\n"
 "부드럽게 하는 효과가 줄어들 수 있습니다\n"
 "낮은 값은 더 부드러운 그라디언트와 효과적인 스무딩을 제공하지만\n"
 "경계가 정확하지 않거나 헤일로가 생길 수 있습니다"
@@ -23501,12 +23501,12 @@ msgid ""
 "produce piece-wise smooth areas when using high feathering values"
 msgstr ""
 "0으로 설정하면 양자화를 비활성화합니다\n"
-"높은 값으로 설정하면 휘도 마스크가 포스터화되어 페더링 값을 크게 사용할 때\n"
-"조절 마스크가 구간별로 부드러운 영역을 생성하는 데 도움이 됩니다"
+"높은 값으로 설정하면 휘도 매스크가 포스터화되어 페더링 값을 크게 사용할 때\n"
+"조절 매스크가 구간별로 부드러운 영역을 생성하는 데 도움이 됩니다"
 
 #: ../src/iop/toneequal.c:3404 ../src/iop/toneequal.c:3411
 msgid "display exposure mask"
-msgstr "노출 마스크 표시"
+msgstr "노출 매스크 표시"
 
 #: ../src/iop/tonemap.cc:69
 msgid "tone mapping"
@@ -24459,11 +24459,11 @@ msgstr "내보내기 시 고품질 리샘플링 적용"
 
 #: ../src/libs/export.c:1578
 msgid "store masks"
-msgstr "마스크 저장"
+msgstr "매스크 저장"
 
 #: ../src/libs/export.c:1579
 msgid "store masks as layers in exported images. only works for some formats."
-msgstr "마스크를 내보낸 이미지에 레이어 형태로 저장합니다. 일부 형식에서만 가능합니다."
+msgstr "매스크를 내보낸 이미지에 레이어 형태로 저장합니다. 일부 형식에서만 가능합니다."
 
 #: ../src/libs/export.c:1588 ../src/libs/export.c:1623
 #: ../src/libs/print_settings.c:2862 ../src/libs/print_settings.c:2908
@@ -25483,7 +25483,7 @@ msgstr "색공간"
 
 #: ../src/libs/history.c:943
 msgid "mask mode"
-msgstr "마스크 모드"
+msgstr "매스크 모드"
 
 #: ../src/libs/history.c:945
 msgid "blend mode"
@@ -25499,46 +25499,46 @@ msgstr "블랜딩 기준 값"
 
 #: ../src/libs/history.c:957
 msgid "mask blur"
-msgstr "마스크 블러"
+msgstr "매스크 블러"
 
 #: ../src/libs/history.c:960
 msgid "raster mask instance"
-msgstr "래스터 마스크 인스턴스"
+msgstr "래스터 매스크 인스턴스"
 
 #: ../src/libs/history.c:961
 msgid "raster mask id"
-msgstr "래스터 마스크 ID"
+msgstr "래스터 매스크 ID"
 
 #: ../src/libs/history.c:962
 msgid "invert mask"
-msgstr "마스크 반전"
+msgstr "매스크 반전"
 
 #: ../src/libs/history.c:968
 msgid "drawn mask polarity"
-msgstr "드로잉 마스크 극성"
+msgstr "드로잉 매스크 극성"
 
 #: ../src/libs/history.c:972
 #, c-format
 msgid "a drawn mask was added"
-msgstr "드로잉 마스크 추가됨"
+msgstr "드로잉 매스크 추가됨"
 
 #: ../src/libs/history.c:974
 #, c-format
 msgid "the drawn mask was removed"
-msgstr "드로잉 마스크 제거됨"
+msgstr "드로잉 매스크 제거됨"
 
 #: ../src/libs/history.c:975
 #, c-format
 msgid "the drawn mask was changed"
-msgstr "드로잉 마스크 변경됨"
+msgstr "드로잉 매스크 변경됨"
 
 #: ../src/libs/history.c:1007
 msgid "parametric output mask:"
-msgstr "파라메트릭 출력 마스크:"
+msgstr "파라메트릭 출력 매스크:"
 
 #: ../src/libs/history.c:1008
 msgid "parametric input mask:"
-msgstr "파라메트릭 입력 마스크:"
+msgstr "파라메트릭 입력 매스크:"
 
 #: ../src/libs/history.c:1342
 msgid "delete image's history?"
@@ -26161,7 +26161,7 @@ msgstr "지도의 소스를 선택하세요. 일부는 작동하지 않을 수 �
 msgid ""
 "manipulate the drawn shapes used\n"
 "for masks on the processing modules"
-msgstr "처리 모듈에서 사용하는 마스크 도형 편집"
+msgstr "처리 모듈에서 사용하는 매스크 도형 편집"
 
 #: ../src/libs/masks.c:109
 msgid "feather"
@@ -28759,7 +28759,7 @@ msgstr "오버레이 색상 순차 전환"
 #. toggle visibility of drawn masks for current gui module
 #: ../src/views/darkroom.c:2961
 msgid "show drawn masks"
-msgstr "그리기 마스크 표시"
+msgstr "드로잉 매스크 표시"
 
 #. brush size +/-
 #: ../src/views/darkroom.c:2965

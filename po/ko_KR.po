@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DarkTable\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-28 18:37+0100\n"
-"PO-Revision-Date: 2025-12-02 15:28+0900\n"
+"PO-Revision-Date: 2025-12-02 16:03+0900\n"
 "Last-Translator: Hwanyong Lee <hwan@ajou.ac.kr>\n"
 "Language-Team: Ajou Univ.(함도혁,윤하윤,정채영,김민채,김윤중)\n"
 "Language: ko_KR\n"
@@ -1883,7 +1883,7 @@ msgstr ""
 "XMP 사이드카 파일을 생성할 때 계층적 태그는 단순 목록에도 추가됩니다\n"
 "일부 다른 프로그램에서도 보이도록 비계층적 태그로 추가합니다.\n"
 "이 옵션을 선택하면 darktable은 마지막 부분만 포함합니다\n"
-"그리고 나머지는 무시합니다. 'foo|bar|baz'의 예시에서 'baz'만 추가됩니다."
+" 나머지는 무시합니다. 'foo|bar|baz'의 예시에서 'baz'만 추가됩니다."
 
 #: ../build/bin/preferences_gen.h:4417
 msgid "shortcuts with multiple instances"
@@ -3453,7 +3453,7 @@ msgstr "색조 이동"
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:370
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:557
 msgid "global brilliance"
-msgstr "전역 광채"
+msgstr "전역 밝기"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:394
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:573
@@ -9976,7 +9976,7 @@ msgstr "맞춤"
 
 #: ../src/dtgtk/thumbtable.c:1256
 msgid "here"
-msgstr "여기"
+msgstr "클릭"
 
 #: ../src/dtgtk/thumbtable.c:1257 ../src/views/slideshow.c:426
 msgid "there are no images in this collection"
@@ -10004,7 +10004,7 @@ msgstr "'<b>h</b>' 키를 누르고 있으면 모든 활성 키보드 단축키�
 
 #: ../src/dtgtk/thumbtable.c:1264
 msgid "to open the online manual click "
-msgstr "클릭하여 온라인 매뉴얼 열기 "
+msgstr "온라인 매뉴얼 -  "
 
 #: ../src/dtgtk/thumbtable.c:1265
 msgid "try to relax the filter settings in the top panel"
@@ -12277,7 +12277,7 @@ msgstr "이전 버전 출시를 가능하게 해주신 모든 분들께"
 
 #: ../src/gui/about.c:56
 msgid "and..."
-msgstr "그리고..."
+msgstr "..."
 
 #: ../src/gui/about.c:59
 msgid "translator-credits"
@@ -14028,7 +14028,7 @@ msgstr "이 프리셋으로 사용할 이미지 유형을 선택"
 
 #: ../src/gui/presets.c:762 ../src/libs/filtering.c:1250
 msgid "and"
-msgstr "그리고"
+msgstr "and"
 
 #: ../src/gui/presets.c:806 ../src/gui/presets.c:858
 msgid "∞"
@@ -15040,7 +15040,7 @@ msgstr ""
 #: ../src/iop/sigmoid.c:206 ../src/iop/tonecurve.c:179
 #: ../src/iop/toneequal.c:329
 msgid "corrective and creative"
-msgstr "교정적 그리고 창의적"
+msgstr "교정적  창의적"
 
 #: ../src/iop/agx.c:59 ../src/iop/ashift.c:125 ../src/iop/ashift.c:127
 #: ../src/iop/basicadj.c:169 ../src/iop/bilateral.cc:104
@@ -16169,7 +16169,7 @@ msgstr "부분 대비를 향상시키기 위해 사용하는 필터입니다. �
 
 #: ../src/iop/bilat.c:445 ../src/iop/globaltonemap.c:651
 msgid "detail"
-msgstr "세부 사항"
+msgstr "디테일"
 
 #: ../src/iop/bilat.c:448
 msgid "changes the local contrast"
@@ -16177,7 +16177,7 @@ msgstr "부분 대비를 변경합니다"
 
 #: ../src/iop/bilat.c:463
 msgid "feature size of local details (spatial sigma of bilateral filter)"
-msgstr "부분 세부 사항의 특징 크기 (양방향 필터의 공간 시그마)"
+msgstr "부분 디테일의 기능 크기 (양방향 필터의 공간 시그마)"
 
 #: ../src/iop/bilat.c:471
 msgid "L difference to detect edges (range sigma of bilateral filter)"
@@ -18004,20 +18004,20 @@ msgstr "기존 픽셀의 채도에 비례하여 채도를 증가시키거나 감
 #: ../src/iop/colorbalancergb.c:1849
 msgctxt "section"
 msgid "perceptual brilliance grading"
-msgstr "지각적 광채 그레이딩"
+msgstr "지각적 밝기 그레이딩"
 
 #: ../src/iop/colorbalancergb.c:1850
 msgid "brilliance"
-msgstr "광채"
+msgstr "밝기"
 
 #: ../src/iop/colorbalancergb.c:1855
 msgid "add or remove brilliance by an absolute amount"
-msgstr "광채를 절대값 기준으로 추가하거나 제거합니다"
+msgstr "밝기값에 절대값을 증가 혹은 감소"
 
 #: ../src/iop/colorbalancergb.c:1860 ../src/iop/colorbalancergb.c:1865
 #: ../src/iop/colorbalancergb.c:1870
 msgid "increase or decrease brilliance proportionally to the original pixel brilliance"
-msgstr "기존 픽셀의 광채에 비례하여 광채를 증가시키거나 감소시킵니다"
+msgstr "기존 픽셀의 밝기에 비례하여 증가 혹은 감소"
 
 #. Page 4-ways
 #: ../src/iop/colorbalancergb.c:1873
@@ -19077,7 +19077,7 @@ msgid ""
 "Note: a radius set to zero will be recalculated automatically the next run. use for presets"
 msgstr ""
 "캡처 샤프닝 반지름은 카메라 센서의 전체적인 가우시안 형태의 블러, \n"
-"안티앨리어싱 필터, 그리고 렌즈를 반영해야 합니다. \n"
+"안티앨리어싱 필터,  렌즈를 반영해야 합니다. \n"
 "이 값을 지나치게 크게 설정하면 특히 ‘반복’ 설정이 큰 경우 \n"
 "헤일로(halo)나 링잉(ringing)과 같은 아티팩트가 곧 발생합니다.\n"
 "\n"
@@ -19892,13 +19892,12 @@ msgid ""
 "be a critical part of your subject or a non-moving and\n"
 "consistently-lit surface over your series of images."
 msgstr ""
-"이미지에서 선택한 영역 (제어 샘플)의 목표 밝기를\n"
-"노출 기준으로 정의\n"
-"이 밝기는 이후 다른 이미지에서도\n"
-"동일한 목표 밝기에 맞춰 조정됩니다.\n"
-"제어 샘플은 피사체의 중요한 부분이거나,\n"
-"시리즈 이미지 전체에서 움직이지 않고\n"
-"일정하게 광원된 표면일 수 있습니다."
+"이미지에서 선택된 영역(제어 샘플)에 대해 \n"
+"노출 기준으로 목표 밝기를 정의한 후, \n"
+"다른 이미지에서도 동일한 목표 밝기를 일치시킵니다. \n"
+"제어 샘플은 피사체의 중요한 부분이거나, \n"
+"시리즈 이미지 전체에서 움직이지 않고 \n"
+"일관되게 조명이 유지되는 표면일 수 있습니다."
 
 #: ../src/iop/exposure.c:1282
 msgid ""
@@ -20011,7 +20010,7 @@ msgid ""
 msgstr ""
 "일부 추정 기반으로 설정을 최적화.\n"
 "휘도 범위를 히스토그램 경계 안에 맞추도록 조정합니다.\n"
-"풍경이나 고르게 광원된 이미지에서 효과적이나\n"
+"풍경이나 고르게 조명이 비추는 이미지에서 효과적이나\n"
 "하이 키나 로우 키 이미지에는 적합하지 않습니다."
 
 #: ../src/iop/filmic.c:1520 ../src/iop/filmicrgb.c:4510
@@ -21986,7 +21985,7 @@ msgid ""
 msgstr ""
 "필름스트립에서\n"
 "이미지를\n"
-"여기로\n"
+"여기에\n"
 "드롭하세요"
 
 #: ../src/iop/overlay.c:1018
@@ -23232,11 +23231,11 @@ msgstr "톤 이퀄라이저"
 
 #: ../src/iop/toneequal.c:321
 msgid "tone curve|tone mapping|relight|background light|shadows highlights"
-msgstr "톤 커브|톤 매핑|광원 재조정|배경광|쉐도우 하이라이트"
+msgstr "톤 커브|톤 매핑|재조명|배경광|쉐도우 하이라이트"
 
 #: ../src/iop/toneequal.c:328
 msgid "relight the scene as if the lighting was done directly on the scene"
-msgstr "장면에 직접 광원을 비춘 것처럼 광원을 재조정합니다"
+msgstr "장면에 직접 조명을 비춘 것처럼 재조명합니다"
 
 #: ../src/iop/toneequal.c:484
 msgid "simple tone curve"
@@ -23288,7 +23287,7 @@ msgstr "대비 톤 커브 | 강하게"
 
 #: ../src/iop/toneequal.c:596
 msgid "relight: fill-in"
-msgstr "광원 재조정: 채우기 광원"
+msgstr "재조명: fill-in"
 
 #: ../src/iop/toneequal.c:1091
 msgid "tone equalizer failed to allocate memory, check your RAM settings"
@@ -24019,7 +24018,7 @@ msgstr "이미지 제외"
 
 #: ../src/libs/collect.c:3277
 msgid "change to: and"
-msgstr "다음으로 변경: 그리고"
+msgstr "다음으로 변경: "
 
 #: ../src/libs/collect.c:3284
 msgid "change to: or"
@@ -24066,7 +24065,7 @@ msgstr "환경설정..."
 
 #: ../src/libs/collect.c:3527 ../src/libs/filtering.c:1483
 msgid "AND"
-msgstr "그리고"
+msgstr ""
 
 #: ../src/libs/collect.c:3532 ../src/libs/filtering.c:1488
 msgid "OR"
@@ -24800,11 +24799,11 @@ msgstr "이 규칙은 비활성화되어 있습니다"
 
 #: ../src/libs/filtering.c:1251
 msgid "or"
-msgstr "또는"
+msgstr "or"
 
 #: ../src/libs/filtering.c:1252
 msgid "and not"
-msgstr "그리고 아님"
+msgstr "and not"
 
 #: ../src/libs/filtering.c:1254
 msgid "define how this rule should interact with the previous one"
@@ -27224,7 +27223,7 @@ msgstr ""
 
 #: ../src/libs/recentcollect.c:115
 msgid " and "
-msgstr " 그리고 "
+msgstr "  "
 
 #: ../src/libs/recentcollect.c:120
 msgid " or "
@@ -27992,7 +27991,7 @@ msgstr "미리보기 오버레이"
 
 #: ../src/libs/tools/global_toolbox.c:351
 msgid "overlays not available here..."
-msgstr "여기에서는 오버레이를 사용할 수 없습니다..."
+msgstr "여기에서 오버레이를 사용할 수 없습니다..."
 
 #: ../src/libs/tools/global_toolbox.c:390
 msgid "grouping"

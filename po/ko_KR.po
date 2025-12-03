@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DarkTable\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-28 18:37+0100\n"
-"PO-Revision-Date: 2025-12-02 17:06+0900\n"
+"PO-Revision-Date: 2025-12-03 15:27+0900\n"
 "Last-Translator: Hwanyong Lee <hwan@ajou.ac.kr>\n"
 "Language-Team: Ajou Univ.(함도혁,윤하윤,정채영,김민채,김윤중)\n"
 "Language: ko_KR\n"
@@ -215,7 +215,7 @@ msgstr "메타데이터 적용"
 
 #: ../build/bin/conf_gen.h:1183
 msgid "apply some metadata to all newly imported images."
-msgstr "새로 가져온 모든 이미지에 일부 메타데이터를 적용합니다."
+msgstr "새로 가져온 모든 이미지에 일부 메타데이터를 적용."
 
 #: ../build/bin/conf_gen.h:1190
 msgid "recursive directory"
@@ -227,7 +227,7 @@ msgstr "필름롤을 가져오기 시 하위 디렉토리 탐색"
 
 #: ../build/bin/conf_gen.h:1198
 msgid "creator to be applied when importing"
-msgstr "가져오기 시 적용할 작성자"
+msgstr "가져오기 시 적용할 저작자"
 
 #: ../build/bin/conf_gen.h:1206
 msgid "publisher to be applied when importing"
@@ -259,7 +259,7 @@ msgstr "EXIF 등급 무시"
 
 #: ../build/bin/conf_gen.h:1271
 msgid "ignore EXIF rating. if not set and EXIF rating is found, it overrides 'initial rating'"
-msgstr "EXIF 등급을 무시합니다. 설정하지 않으면 EXIF 등급이 있을 경우'초기 등급'을 덮어씁니다"
+msgstr "EXIF 등급을 무시. 설정하지 않으면 EXIF 등급이 있을 경우,'초기 등급'을 덮어씁니다"
 
 #: ../build/bin/conf_gen.h:1278
 msgid "import job"
@@ -375,7 +375,7 @@ msgstr "높음"
 #: ../build/bin/conf_gen.h:1648 ../build/bin/preferences_gen.h:3100
 msgctxt "preferences"
 msgid "false color"
-msgstr "거짓 색상"
+msgstr "가상 색상"
 
 #: ../build/bin/conf_gen.h:1649
 msgctxt "preferences"
@@ -693,7 +693,7 @@ msgstr "inch"
 #: ../build/bin/conf_gen.h:3885 ../build/bin/preferences_gen.h:4359
 msgctxt "preferences"
 msgid "all"
-msgstr "all"
+msgstr "모두"
 
 #: ../build/bin/conf_gen.h:3886
 msgctxt "preferences"
@@ -1644,7 +1644,7 @@ msgstr "비밀번호 저장을 위한 백엔드: 자동, 없음, libsecret, kwal
 
 #: ../build/bin/preferences_gen.h:3966
 msgid "auto login to storage server"
-msgstr "스토리지 서버 자동 로그인"
+msgstr "저장 서버에 자동 로그인"
 
 #: ../build/bin/preferences_gen.h:3974
 msgid "automatically login to the configured storage server. this requires that a password storage backend is set."
@@ -1883,7 +1883,7 @@ msgstr ""
 "XMP 사이드카 파일을 생성할 때 계층적 태그는 단순 목록에도 추가됩니다\n"
 "일부 다른 프로그램에서도 보이도록 비계층적 태그로 추가합니다.\n"
 "이 옵션을 선택하면 darktable은 마지막 부분만 포함합니다\n"
-" 나머지는 무시합니다. 'foo|bar|baz'의 예시에서 'baz'만 추가됩니다."
+"나머지는 무시합니다. 'foo|bar|baz'의 예시에서 'baz'만 추가됩니다."
 
 #: ../build/bin/preferences_gen.h:4417
 msgid "shortcuts with multiple instances"
@@ -2137,7 +2137,7 @@ msgstr "극단적 채도"
 #. cubic spline
 #: ../build/bin/styles_string.h:23 ../src/iop/filmic.c:1568
 msgid "faded"
-msgstr "바랜 효과"
+msgstr "페이드"
 
 #: ../build/bin/styles_string.h:24
 msgid "fine-tune the selected color by adjusting the 'node placement' slider in color equalizer"
@@ -2353,7 +2353,7 @@ msgstr "색조 보존"
 #: ../build/lib/darktable/plugins/introspection_profile_gamma.c:166
 #: ../src/iop/filmic.c:1490
 msgid "black relative exposure"
-msgstr "검정 상대 노출"
+msgstr "흑색 상대 노출"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:283
 #: ../build/lib/darktable/plugins/introspection_agx.c:524
@@ -2430,7 +2430,7 @@ msgstr "대각선 방향으로 피봇 유지"
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:134
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:249
 msgid "target black"
-msgstr "지정 검정"
+msgstr "목표 흑색"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:355
 #: ../build/lib/darktable/plugins/introspection_agx.c:572
@@ -3161,7 +3161,7 @@ msgstr "사용자 정의"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:515
 msgid "as shot in camera"
-msgstr "카메라 촬영 시"
+msgstr "카메라로 촬영된 그대로"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:522
 msgid "F1 (Daylight 6430 K) – medium CRI"
@@ -3352,7 +3352,7 @@ msgstr "리프트, 감마, 게인 (sRGB)"
 #: ../src/iop/channelmixerrgb.c:4573 ../src/iop/colorbalancergb.c:1803
 #: ../src/iop/colorzones.c:2626 ../src/iop/nlmeans.c:465
 msgid "chroma"
-msgstr "채도(크로마)"
+msgstr "순도"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:238
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:256
@@ -3425,7 +3425,7 @@ msgstr "하이라이트"
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:328
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:529
 msgid "global chroma"
-msgstr "글로벌 채도(크로마)"
+msgstr "전체 크로마"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:334
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:352
@@ -3443,7 +3443,7 @@ msgstr "중간 톤"
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:537
 #: ../src/iop/filmic.c:1544
 msgid "global saturation"
-msgstr "글로벌 채도"
+msgstr "전체 색순도"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:364
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:553
@@ -3453,7 +3453,7 @@ msgstr "색조 이동"
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:370
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:557
 msgid "global brilliance"
-msgstr "글로벌 밝기"
+msgstr "전체 밝기"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:394
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:573
@@ -3463,7 +3463,7 @@ msgstr "매스크 중간 회색 중심점"
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:400
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:577
 msgid "global vibrance"
-msgstr "글로벌 생동감"
+msgstr "전체 생동감"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:406
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:581
@@ -3653,7 +3653,7 @@ msgstr "작동 모드"
 
 #: ../build/lib/darktable/plugins/introspection_defringe.c:124
 msgid "global average (fast)"
-msgstr "글로벌 평균 (빠름)"
+msgstr "전체평균 (빠름)"
 
 #: ../build/lib/darktable/plugins/introspection_defringe.c:125
 msgid "local average (slow)"
@@ -3723,7 +3723,7 @@ msgstr "캡처 샤프닝"
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:300
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:197
 msgid "disabled"
-msgstr "비활성화됨"
+msgstr "비활성"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:294
 msgid "local average"
@@ -3789,7 +3789,7 @@ msgstr "Markesteijn 3회 처리"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:321
 msgid "frequency domain chroma"
-msgstr "주파수 영역 채도(크로마)"
+msgstr "주파수 영역 순도"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:322
 msgid "Markesteijn 3-pass (dual)"
@@ -4092,7 +4092,7 @@ msgstr "색상"
 #: ../src/iop/levels.c:671 ../src/iop/rgblevels.c:962
 #: ../src/iop/rgblevels.c:1077
 msgid "black"
-msgstr "검정"
+msgstr "흑색"
 
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:163
 #: ../src/iop/levels.c:679 ../src/iop/rgblevels.c:964
@@ -4161,7 +4161,7 @@ msgstr "지정 중간 회색"
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:463
 #: ../src/iop/filmic.c:1584
 msgid "target black luminance"
-msgstr "지정 검정 휘도"
+msgstr "목표 흑색 휘도"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:278
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:467
@@ -4236,7 +4236,7 @@ msgstr "하이라이트의 대비"
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:368
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:527
 msgid "compensate output ICC profile black point"
-msgstr "출력 ICC 프로파일 검정점 보상"
+msgstr "출력 ICC 프로파일 흑색점 보상"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:374
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:531
@@ -4650,7 +4650,7 @@ msgstr "수동 비네팅만"
 #: ../src/libs/filtering.c:1510 ../src/libs/filters/colors.c:157
 #: ../src/libs/filters/colors.c:265 ../src/libs/filters/rating.c:210
 msgid "all"
-msgstr "전체"
+msgstr "모두"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:535
 msgid "distortion & TCA"
@@ -4816,7 +4816,7 @@ msgstr "스캔 노출 보정"
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:138
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:235
 msgid "paper black (density correction)"
-msgstr "인화지 검정 (밀도 보정)"
+msgstr "인화지 흑색 (밀도 보정)"
 
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:144
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:239
@@ -4841,7 +4841,7 @@ msgstr "흑백 필름"
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:262
 #: ../src/iop/negadoctor.c:406
 msgid "color film"
-msgstr "색상 필름"
+msgstr "컬러 필름"
 
 #: ../build/lib/darktable/plugins/introspection_overlay.c:118
 #: ../build/lib/darktable/plugins/introspection_overlay.c:241
@@ -5794,7 +5794,7 @@ msgstr "그룹"
 #: ../src/libs/filters/local_copy.c:142 ../src/libs/metadata_view.c:139
 #: ../src/libs/metadata_view.c:365
 msgid "local copy"
-msgstr "부분 복사"
+msgstr "로컬 복사본"
 
 #: ../src/common/collection.c:658 ../src/gui/preferences.c:920
 msgid "module"
@@ -5845,7 +5845,7 @@ msgstr "자동 적용"
 #: ../src/common/collection.c:1505 ../src/libs/collect.c:1907
 #: ../src/libs/filters/history.c:38
 msgid "altered"
-msgstr "수정됨"
+msgstr "대체됨"
 
 #: ../src/common/collection.c:1523 ../src/common/collection.c:1634
 #: ../src/libs/collect.c:1272 ../src/libs/collect.c:1462
@@ -5867,7 +5867,7 @@ msgstr "태그됨*"
 #: ../src/common/collection.c:1559 ../src/libs/collect.c:1929
 #: ../src/libs/filters/local_copy.c:38
 msgid "not copied locally"
-msgstr "부분적으로 복사 안 됨"
+msgstr "로컬 복사되지 않음"
 
 #: ../src/common/collection.c:1564 ../src/libs/collect.c:1928
 #: ../src/libs/filters/local_copy.c:38
@@ -6502,7 +6502,7 @@ msgstr "2) OpenCL 성능 조정"
 
 #: ../src/common/darktable.c:2507
 msgid "some global config parameters relevant for OpenCL performance are not used any longer."
-msgstr "OpenCL 성능과 관련된 글로벌 구성 파라메터 일부는 더 이상 사용되지 않습니다."
+msgstr "OpenCL 성능과 관련된 전체 구성 파라메터 일부는 더 이상 사용되지 않습니다."
 
 #: ../src/common/darktable.c:2509
 msgid "instead you will find 'per device' data in 'cldevice_v5_canonical-name'. content is:"
@@ -6523,7 +6523,7 @@ msgstr "모든 장치의 OpenCL 컴파일러 설정이 기본값으로 초기화
 
 #: ../src/common/darktable.c:2526
 msgid "OpenCL global config parameters 'per device' data has been recreated with an updated name."
-msgstr "OpenCL 글로벌 구성 파라메터 'per device' 데이터가 업데이트된 이름으로 다시 생성 되었습니다."
+msgstr "OpenCL 전체 구성 파라메터 'per device' 데이터가 업데이트된 이름으로 다시 생성 되었습니다."
 
 #: ../src/common/darktable.c:2528 ../src/common/darktable.c:2543
 msgid "you will find 'per device' data in 'cldevice_v5_canonical-name'. content is:"
@@ -6865,7 +6865,7 @@ msgstr "고속 노출 비의존 가이드 필터에서 메모리 할당에 실�
 #: ../src/common/exif.cc:6027
 #, c-format
 msgid "cannot read XMP file '%s': '%s'"
-msgstr "XMP 파일'%s': '%s'을 읽을 수 없습니다"
+msgstr "XMP 파일 '%s': '%s'을 읽을 수 없습니다"
 
 #: ../src/common/exif.cc:6086
 #, c-format
@@ -7005,7 +7005,7 @@ msgstr ""
 
 #: ../src/common/image.c:3279
 msgid "or the <b>RAW won't be readable</b> in next version."
-msgstr "샘플을 제공하지 않으면 다음 버전에서 <b>RAW 파일을 읽을 수 없습니다.</b>"
+msgstr "그러지 않으면 다음 버전에서 <b>RAW 파일을 읽을 수 없습니다.</b>"
 
 #: ../src/common/image.h:217 ../src/common/ratings.c:297
 #: ../src/imageio/format/avif.c:120 ../src/libs/history.c:838
@@ -7269,7 +7269,7 @@ msgstr[0] "%d개 이미지가 거부됨"
 #, c-format
 msgid "applying rating %d to %d image"
 msgid_plural "applying rating %d to %d images"
-msgstr[0] "등급 %d를 %d개 이미지에 적용 중"
+msgstr[0] "등급 %d를 %d 이미지에 적용 중"
 
 #: ../src/common/ratings.c:231
 msgid "no images selected to apply rating"
@@ -7535,7 +7535,7 @@ msgstr "카메라 설정"
 
 #: ../src/common/wb_presets.c:93
 msgid "auto WB"
-msgstr "자동"
+msgstr "자동 WB"
 
 #: ../src/control/control.c:66 ../src/gui/accelerators.c:156
 #: ../src/views/darkroom.c:2310
@@ -7549,7 +7549,7 @@ msgstr "조절 키"
 #: ../src/control/control.c:119
 msgctxt "accel"
 msgid "global"
-msgstr "글로벌"
+msgstr "전체"
 
 #: ../src/control/control.c:126
 msgctxt "accel"
@@ -8041,7 +8041,7 @@ msgstr "편집중인 이미지의 히스토리 삭제를 건너뛰었습니다"
 #, c-format
 msgid "applying style(s) for %d image"
 msgid_plural "applying style(s) for %d images"
-msgstr[0] "%d개 이미지에 스타일 적용 중"
+msgstr[0] "%d 이미지에 스타일 적용 중"
 
 #: ../src/control/jobs/control_jobs.c:1854
 #, c-format
@@ -8192,7 +8192,7 @@ msgstr[0] "정말로 %d개 이미지를 %s로 물리적으로 복사하시겠습
 #: ../src/control/jobs/control_jobs.c:2289
 #: ../src/control/jobs/control_jobs.c:2298
 msgid "local copy images"
-msgstr "이미지 로컬 복사"
+msgstr "로컬 복사본 이미지"
 
 #: ../src/control/jobs/control_jobs.c:2307 ../src/libs/image.c:654
 msgid "refresh EXIF"
@@ -8677,7 +8677,7 @@ msgstr "C"
 
 #: ../src/develop/blend_gui.c:2355
 msgid "sliders for chroma channel (of LCh)"
-msgstr "채도 채널 슬라이더 (LCh)"
+msgstr "색상 채널 슬라이더 (LCh)"
 
 #: ../src/develop/blend_gui.c:2361
 msgid "h"
@@ -8742,7 +8742,7 @@ msgstr "S"
 
 #: ../src/develop/blend_gui.c:2400
 msgid "sliders for chroma channel (of HSL)"
-msgstr "채도 채널 슬라이더 (HSL)"
+msgstr "색상 채널 슬라이더 (HSL)"
 
 #: ../src/develop/blend_gui.c:2407
 msgid "sliders for value channel (of HSL)"
@@ -8762,7 +8762,7 @@ msgstr "Cz"
 
 #: ../src/develop/blend_gui.c:2448
 msgid "sliders for chroma channel (of JzCzhz)"
-msgstr "채도 채널 슬라이더 (JzCzhz)"
+msgstr "색상 채널 슬라이더 (JzCzhz)"
 
 #: ../src/develop/blend_gui.c:2455
 msgid "hz"
@@ -9106,7 +9106,7 @@ msgstr ""
 
 #: ../src/develop/blend_gui.c:3586 ../src/libs/history.c:955
 msgid "feathering guide"
-msgstr "페더링 가이드"
+msgstr "페더 가이드"
 
 #: ../src/develop/blend_gui.c:3589
 msgid ""
@@ -9118,7 +9118,7 @@ msgstr ""
 
 #: ../src/develop/blend_gui.c:3595 ../src/libs/history.c:954
 msgid "feathering radius"
-msgstr "페더링 반지름"
+msgstr "페더 반지름"
 
 #: ../src/develop/blend_gui.c:3596 ../src/develop/blend_gui.c:3605
 #: ../src/iop/colorbalancergb.c:2022 ../src/iop/colorequal.c:3149
@@ -9965,7 +9965,7 @@ msgstr ""
 #. and the number of grouped images
 #: ../src/dtgtk/thumbnail.c:207
 msgid "grouped images"
-msgstr "그룹 이미지"
+msgstr "이미지 묶음"
 
 #: ../src/dtgtk/thumbnail.c:863 ../src/dtgtk/thumbnail.c:1676
 #: ../src/iop/ashift.c:6047 ../src/iop/ashift.c:6134 ../src/iop/ashift.c:6136
@@ -10020,7 +10020,7 @@ msgstr "darktable 개인 설정"
 
 #: ../src/dtgtk/thumbtable.c:1268
 msgid "click on the gear icon for global preferences"
-msgstr "톱니바퀴 아이콘을 클릭하여 글로벌 환경설정 변경"
+msgstr "톱니바퀴 아이콘을 클릭하여 전체 환경설정 변경"
 
 #: ../src/dtgtk/thumbtable.c:1270
 msgid "click on the keyboard icon to define shortcuts"
@@ -12277,7 +12277,7 @@ msgstr "이전 버전 출시를 가능하게 해주신 모든 분들께"
 
 #: ../src/gui/about.c:56
 msgid "and..."
-msgstr "..."
+msgstr "and..."
 
 #: ../src/gui/about.c:59
 msgid "translator-credits"
@@ -12301,7 +12301,7 @@ msgstr "속도 조절"
 
 #: ../src/gui/accelerators.c:71
 msgid "disabled defaults"
-msgstr "바활성화된 기본값"
+msgstr "바활성 기본값"
 
 #: ../src/gui/accelerators.c:91 ../src/views/view.c:1419
 msgid "scroll"
@@ -12365,7 +12365,7 @@ msgstr "cmd"
 
 #: ../src/gui/accelerators.c:115
 msgid "altgr"
-msgstr "Altgr"
+msgstr "AltGr"
 
 #: ../src/gui/accelerators.c:127 ../src/gui/accelerators.c:174
 #: ../src/libs/tagging.c:1979
@@ -13247,11 +13247,11 @@ msgstr "하단 도구모음"
 
 #: ../src/gui/gtk.c:1545
 msgid "all top"
-msgstr "전부 상단"
+msgstr "모두 상단"
 
 #: ../src/gui/gtk.c:1546
 msgid "all bottom"
-msgstr "전부 하단"
+msgstr "모두 아래쪽"
 
 #: ../src/gui/gtk.c:1548
 msgid "toggle tooltip visibility"
@@ -13663,7 +13663,7 @@ msgstr "선택된 태그"
 
 #: ../src/gui/metadata_tags.c:92
 msgid "_add"
-msgstr "추가 (&A)"
+msgstr "추가(&A)"
 
 #: ../src/gui/metadata_tags.c:93 ../src/libs/geotagging.c:832
 msgid "_done"
@@ -14080,7 +14080,7 @@ msgstr "빠른 프리셋 목록 관리..."
 
 #: ../src/gui/presets.c:1780
 msgid "disabled: wrong module version"
-msgstr "불가능: 잘못된 모듈 버전"
+msgstr "비활성: 잘못된 모듈 버전"
 
 #: ../src/gui/presets.c:1799 ../src/libs/lib.c:547
 msgid "edit this preset.."
@@ -14278,7 +14278,7 @@ msgstr "이미지의 품질, 품질값이 낮으면 상세함이 낮음"
 
 #: ../src/imageio/format/avif.c:1018 ../src/imageio/format/jpeg.c:587
 msgid "chroma subsampling"
-msgstr "채도(크로마) 서브샘플링"
+msgstr "색상 서브샘플링"
 
 #: ../src/imageio/format/avif.c:1019
 msgid ""
@@ -14289,10 +14289,10 @@ msgid ""
 "4:2:2 - color sampling rate halved horizontally\n"
 "4:2:0 - color sampling rate halved horizontally and vertically"
 msgstr ""
-"AVIF 인코더의 크로마 서브샘플링 설정\n"
+"AVIF 인코더의 색상 서브샘플링 설정\n"
 "auto: 품질 값에 따라 서브샘플링을 자동 결정\n"
 "    (5–80: YUV420, 81–90: YUV422, 91–100: YUV444)\n"
-"4:4:4: 크로마 서브샘플링 없음\n"
+"4:4:4: 색상 서브샘플링 없음\n"
 "4:2:2: 색상 샘플링 비율을 수평으로 절반으로 줄임\n"
 "4:2:0: 색상 샘플링 비율을 수평 및 수직으로 절반으로 줄임"
 
@@ -14319,7 +14319,7 @@ msgid ""
 "the global options below do not apply!"
 msgstr ""
 "선택한 파일을 1:1로 복사합니다.\n"
-"아래의 글로벌 옵션은 적용되지 않습니다!"
+"아래의 전체 옵션은 적용되지 않습니다!"
 
 #: ../src/imageio/format/exr.cc:215
 msgid "the selected output profile doesn't work well with EXR"
@@ -14416,9 +14416,9 @@ msgid ""
 "4:2:2 - color sampling rate halved horizontally\n"
 "4:2:0 - color sampling rate halved horizontally and vertically"
 msgstr ""
-"JPEG 인코더를 위한 채도(크로마) 서브샘플링을 설정합니다\n"
+"JPEG 인코더를 위한 색상 서브샘플링을 설정합니다\n"
 "자동 - 품질 값에 따라 자동으로 서브샘플링 설정\n"
-"4:4:4 - 채도(크로마) 서브샘플링 없음\n"
+"4:4:4 - 색상 서브샘플링 없음\n"
 "4:4:0 - 수직 방향으로 색상 샘플링 비율이 절반 감소\n"
 "4:2:2 - 수평 방향으로 색상 샘플링 비율이 절반 감소\n"
 "4:2:0 - 수직 및 수평 방향으로 색상 샘플링 비율이 절반 감소"
@@ -14543,7 +14543,7 @@ msgstr "페이지 방향"
 
 #: ../src/imageio/format/pdf.c:618
 msgid "paper orientation of the PDF"
-msgstr "PDF의 페이지 방향"
+msgstr "PDF의 용지 방향"
 
 #. border
 #: ../src/imageio/format/pdf.c:626 ../src/imageio/format/pdf.c:628
@@ -14568,7 +14568,7 @@ msgstr "dpi"
 
 #: ../src/imageio/format/pdf.c:642
 msgid "dpi of the images inside the PDF"
-msgstr "PDF 내부의 이미지 dpi"
+msgstr "PDF 내부에서 이미지의 dpi"
 
 #. rotate images yes|no
 #: ../src/imageio/format/pdf.c:648
@@ -15388,7 +15388,7 @@ msgstr "하이라이트에서 빨강의 채도를 빠르게 낮추려면 증가�
 
 #: ../src/iop/agx.c:2286
 msgid "shift the red primary towards yellow (+) or magenta (-)"
-msgstr "빨강 기본색상을 노란색(+) 또는 마젠타(-) 방향으로 이동"
+msgstr "빨강 기본색상을 노랑(+) 또는 마젠타(-) 방향으로 이동"
 
 #: ../src/iop/agx.c:2292
 msgid "increase to desaturate greens in highlights faster"
@@ -15396,7 +15396,7 @@ msgstr "하이라이트에서 초록의 채도를 빠르게 낮추려면 증가�
 
 #: ../src/iop/agx.c:2299
 msgid "shift the green primary towards cyan (+) or yellow (-)"
-msgstr "초록 기본색상을 시안(+) 또는 노란색(-) 방향으로 이동"
+msgstr "초록 기본색상을 시안(+) 또는 노랑(-) 방향으로 이동"
 
 #: ../src/iop/agx.c:2305
 msgid "increase to desaturate blues in highlights faster"
@@ -15758,7 +15758,7 @@ msgstr "샤프닝"
 
 #: ../src/iop/atrous.c:843
 msgid "denoise chroma"
-msgstr "채도(크로마) 노이즈 감소"
+msgstr "순도 노이즈 감소"
 
 #: ../src/iop/atrous.c:859
 msgid "denoise"
@@ -15895,7 +15895,7 @@ msgid ""
 "only changes results of luma and chroma tabs"
 msgstr ""
 "각각의 특징 크기에서 에지의 헤일로 변경\n"
-"휘도(루마)나 채도(크로마) 탭의 결과를 바꿉니다"
+"밝기와 색상 탭의 결과를 바꿉니다"
 
 #: ../src/iop/atrous.c:1830 ../src/iop/colorzones.c:2705
 msgid "make effect stronger or weaker"
@@ -15978,7 +15978,7 @@ msgid ""
 "apply a view transform based on personal or camera maker look,\n"
 "for corrective purposes, to prepare images for display"
 msgstr ""
-"개인 또는 카메라 메이커에 기반한 뷰 변환을 적용합니다,\n"
+"개인 또는 카메라 메이커에 기반한 뷰 변환을 적용\n"
 "이미지를 화면에 표시할 때, 준비를 위한 교정 목적입니다"
 
 #: ../src/iop/basecurve.c:372 ../src/iop/cacorrect.c:81
@@ -16078,7 +16078,7 @@ msgstr ""
 "RGB 값이 음수가 되지 않도록 하기 위해 블랙 레벨을 조정합니다.\n"
 "암부를 더 짙게 만들기 위해서 사용해서는 안 됩니다!\n"
 "부적절하게 설정한 경우, RGB 값이 음수가 되기 때문에 \n"
-"거의 검정에 가까운 색이 색상 공간을 벗어나 잘릴 수 있습니다."
+"거의 흑색에 가까운 색이 색상 공간을 벗어나 잘릴 수 있습니다."
 
 #: ../src/iop/basicadj.c:625 ../src/iop/exposure.c:1213
 msgid "adjust the exposure correction"
@@ -16210,7 +16210,7 @@ msgid ""
 "apply edge-aware surface blur\n"
 "to denoise or smoothen textures"
 msgstr ""
-"윤곽을 인식하는 표면 블러를 적용하여\n"
+"에지를 인식하는 표면 블러를 적용\n"
 "노이즈 감소 또는 텍스쳐 부드럽게 만들기"
 
 #: ../src/iop/bilateral.cc:105 ../src/iop/blurs.c:90
@@ -16242,7 +16242,7 @@ msgstr "가우시안 블러의 공간 범위"
 
 #: ../src/iop/bilateral.cc:373
 msgid "how much to blur red"
-msgstr "빨간색 블러 정도"
+msgstr "빨강 블러 정도"
 
 #: ../src/iop/bilateral.cc:378
 msgid "how much to blur green"
@@ -16250,7 +16250,7 @@ msgstr "초록색 블러 정도"
 
 #: ../src/iop/bilateral.cc:383
 msgid "how much to blur blue"
-msgstr "파란색 블러 정도"
+msgstr "파랑 블러 정도"
 
 #: ../src/iop/bloom.c:80
 msgid "apply Orton effect for a dreamy ethereal look"
@@ -16352,7 +16352,7 @@ msgstr "15:10 엽서 흰색"
 
 #: ../src/iop/borders.c:720
 msgid "15:10 postcard black"
-msgstr "15:10 엽서 검정"
+msgstr "15:10 엽서 흑색"
 
 #: ../src/iop/borders.c:925
 msgid "which dimension to use for the size calculation"
@@ -16364,7 +16364,7 @@ msgstr "선택된 기준의 백분율로 표시되는 테두리 크기"
 
 #: ../src/iop/borders.c:933 ../src/iop/clipping.c:2229 ../src/iop/crop.c:1262
 msgid "aspect"
-msgstr "비율"
+msgstr "종횡"
 
 #: ../src/iop/borders.c:934
 msgid ""
@@ -16462,7 +16462,7 @@ msgstr ""
 
 #: ../src/iop/borders.c:966
 msgid "aspect ratio orientation of the image with border"
-msgstr "테두리가 포함된 이미지의 종횡비 방향"
+msgstr "테두리가 있는 이미지의 종횡비 방향"
 
 #: ../src/iop/borders.c:968
 msgid "horizontal position"
@@ -16582,7 +16582,7 @@ msgstr "반복 횟수 (기본값 2회)"
 
 #: ../src/iop/cacorrect.c:1309
 msgid "activate colorshift correction for blue & red channels"
-msgstr "파란색 및 빨간색 채널의 색상 이동 보정 활성화"
+msgstr "파랑 및 빨강 채널의 색상 이동 보정 활성화"
 
 #: ../src/iop/cacorrect.c:1317
 msgid ""
@@ -16735,7 +16735,7 @@ msgstr "회색"
 
 #: ../src/iop/channelmixer.c:619
 msgid "amount of red channel in the output channel"
-msgstr "출력 채널에서 빨간색 채널의 양"
+msgstr "출력 채널에서 빨강 채널의 양"
 
 #: ../src/iop/channelmixer.c:625
 msgid "amount of green channel in the output channel"
@@ -16743,7 +16743,7 @@ msgstr "출력 채널에서 초록색 채널의 양"
 
 #: ../src/iop/channelmixer.c:631
 msgid "amount of blue channel in the output channel"
-msgstr "출력 채널에서 파란색 채널의 양"
+msgstr "출력 채널에서 파랑 채널의 양"
 
 #: ../src/iop/channelmixer.c:642
 msgid "swap R and B"
@@ -16779,7 +16779,7 @@ msgstr "흑백 | 부드러운 피부"
 
 #: ../src/iop/channelmixer.c:690
 msgid "B/W blue artifacts reduce"
-msgstr "흑백 | 파란색 아티팩트 감소"
+msgstr "흑백 | 파랑 아티팩트 감소"
 
 #: ../src/iop/channelmixer.c:697
 msgid "B/W Ilford Delta 100-400"
@@ -16867,7 +16867,7 @@ msgstr "채널 교환 | R 채널과 B 채널 교환"
 
 #: ../src/iop/channelmixerrgb.c:611
 msgid "area color mapping (active)"
-msgstr "색상 매핑 영역 (활성화)"
+msgstr "색상 매핑 영역 (활성)"
 
 #: ../src/iop/channelmixerrgb.c:611
 msgid "area color mapping"
@@ -16955,7 +16955,7 @@ msgstr ""
 "\n"
 "<b>정규화 값</b>\n"
 "노출 보정: \t%+.2f EV\n"
-"검정 오프셋t: \t%+.4f"
+"흑색 오프셋t: \t%+.4f"
 
 #: ../src/iop/channelmixerrgb.c:2054
 msgid "double CAT applied"
@@ -17110,7 +17110,7 @@ msgstr "화이트 밸런스 자동 감지를 시작했습니다…"
 
 #: ../src/iop/channelmixerrgb.c:4116
 msgid "color calibration: the sum of the gray channel parameters is zero, normalization will be disabled."
-msgstr "컬러 캘리브레이션: 회색 채널 파라메터의 합이 0이기 때문에, 정규화가 비활성화 됩니다."
+msgstr "색상 캘리브레이션: 회색 채널 파라메터의 합이 0이기 때문에, 정규화가 비활성화 됩니다."
 
 #. Write report in GUI
 #: ../src/iop/channelmixerrgb.c:4160
@@ -17135,7 +17135,7 @@ msgstr "색순응 변환"
 
 #: ../src/iop/channelmixerrgb.c:4432
 msgid "adaptation"
-msgstr "순응"
+msgstr "적응"
 
 #: ../src/iop/channelmixerrgb.c:4435
 msgid ""
@@ -17448,7 +17448,7 @@ msgstr "이 모듈은 더 이상 사용되지 않습니다. 대신 새 부분 �
 
 #: ../src/iop/clahe.c:325 ../src/iop/sharpen.c:432
 msgid "amount"
-msgstr "적용량"
+msgstr "양"
 
 #: ../src/iop/clahe.c:326
 msgid "size of features to preserve"
@@ -17675,7 +17675,7 @@ msgstr "[테두리에 %s] 비율 유지하며 자르기"
 
 #: ../src/iop/colisa.c:76
 msgid "this module is deprecated. please use colorbalance RGB module instead."
-msgstr "이 모듈은 더 이상 사용되지 않습니다. 대신 색상 균형 RGB 모듈을 사용해 주세요."
+msgstr "이 모듈은 더 이상 사용되지 않습니다. 대신 컬러 밸런스 RGB 모듈을 사용해 주세요."
 
 #: ../src/iop/colisa.c:81
 msgid "contrast brightness saturation"
@@ -17691,7 +17691,7 @@ msgstr "색상 채도 조정"
 
 #: ../src/iop/colorbalance.c:149
 msgid "color balance"
-msgstr "색상 균형"
+msgstr "컬러 밸런스"
 
 #: ../src/iop/colorbalance.c:154
 msgid "lift gamma gain|cdl|color grading|contrast|saturation|hue"
@@ -17818,11 +17818,11 @@ msgstr "마스터"
 
 #: ../src/iop/colorbalance.c:1876
 msgid "saturation correction before the color balance"
-msgstr "색상 균형 이전의 채도 보정"
+msgstr "컬러 밸런스 이전 채도 보정"
 
 #: ../src/iop/colorbalance.c:1882
 msgid "saturation correction after the color balance"
-msgstr "색상 균형 이후의 채도 보정"
+msgstr "컬러 밸런스 이후 채도 보정"
 
 #: ../src/iop/colorbalance.c:1887
 msgid "adjust to match a neutral tone"
@@ -17851,7 +17851,7 @@ msgstr "리프트/오프셋 계수"
 
 #: ../src/iop/colorbalance.c:1978
 msgid "factor of red for lift/offset"
-msgstr "리프트/오프셋의 빨간색 계수"
+msgstr "리프트/오프셋의 빨강 계수"
 
 #: ../src/iop/colorbalance.c:1979
 msgid "factor of green for lift/offset"
@@ -17859,7 +17859,7 @@ msgstr "리프트/오프셋의 초록색 계수"
 
 #: ../src/iop/colorbalance.c:1980
 msgid "factor of blue for lift/offset"
-msgstr "리프트/오프셋의 파란색 계수"
+msgstr "리프트/오프셋의 파랑 계수"
 
 #: ../src/iop/colorbalance.c:1983
 msgid "factor of gamma/power"
@@ -17867,7 +17867,7 @@ msgstr "감마/파워 계수"
 
 #: ../src/iop/colorbalance.c:1984
 msgid "factor of red for gamma/power"
-msgstr "감마/파워의 빨간색 계수"
+msgstr "감마/파워의 빨강 계수"
 
 #: ../src/iop/colorbalance.c:1985
 msgid "factor of green for gamma/power"
@@ -17875,7 +17875,7 @@ msgstr "감마/파워의 초록색 계수"
 
 #: ../src/iop/colorbalance.c:1986
 msgid "factor of blue for gamma/power"
-msgstr "감마/파워의 파란색 계수"
+msgstr "감마/파워의 파랑 계수"
 
 #: ../src/iop/colorbalance.c:1989
 msgid "factor of gain/slope"
@@ -17883,7 +17883,7 @@ msgstr "게인/슬로프 계수"
 
 #: ../src/iop/colorbalance.c:1990
 msgid "factor of red for gain/slope"
-msgstr "게인/슬로프의 빨간색 계수"
+msgstr "게인/슬로프의 빨강 계수"
 
 #: ../src/iop/colorbalance.c:1991
 msgid "factor of green for gain/slope"
@@ -17891,7 +17891,7 @@ msgstr "게인/슬로프의 초록색 계수"
 
 #: ../src/iop/colorbalance.c:1992
 msgid "factor of blue for gain/slope"
-msgstr "게인/슬로프의 파란색 계수"
+msgstr "게인/슬로프의 파랑 계수"
 
 #: ../src/iop/colorbalance.c:2002
 msgid "fit the whole histogram and center the average luma"
@@ -17908,11 +17908,11 @@ msgstr "자동 최적화"
 
 #: ../src/iop/colorbalancergb.c:169
 msgid "color balance rgb"
-msgstr "RGB 색상 균형"
+msgstr "컬러 밸런스 RGB"
 
 #: ../src/iop/colorbalancergb.c:174
 msgid "offset power slope|cdl|color grading|contrast|chroma_highlights|hue|vibrance|saturation"
-msgstr "오프셋 파워 슬로프|CDL|컬러 그레이딩|대비|채도(크로마)_하이라이트|색조|생동감|채도"
+msgstr "오프셋 파워 슬로프|CDL|컬러 그레이딩|대비|순도_하이라이트|색조|생동감|채도"
 
 #: ../src/iop/colorbalancergb.c:179
 msgid ""
@@ -17940,7 +17940,7 @@ msgstr "기본 다채성 | 표준"
 
 #: ../src/iop/colorbalancergb.c:962
 msgid "colorbalance works only on RGB input"
-msgstr "색상 균형은 RGB 입력에서만 작동합니다"
+msgstr "컬러 밸런스는 RGB 입력에서만 작동합니다"
 
 #: ../src/iop/colorbalancergb.c:1423 ../src/iop/colorzones.c:2381
 #: ../src/iop/retouch.c:2056 ../src/iop/toneequal.c:1942
@@ -17971,7 +17971,7 @@ msgstr "색조를 유지하며 대비 향상"
 #: ../src/iop/colorbalancergb.c:1802
 msgctxt "section"
 msgid "linear chroma grading"
-msgstr "선형 채도(크로마) 그레이딩"
+msgstr "선형 순도 그레이딩"
 
 #: ../src/iop/colorbalancergb.c:1809
 msgid "increase colorfulness at same luminance globally"
@@ -18053,7 +18053,7 @@ msgstr "전체 색상 오프셋의 색조"
 
 #: ../src/iop/colorbalancergb.c:1896
 msgid "chroma of the global color offset"
-msgstr "전체 색상 오프셋의 채도(크로마)"
+msgstr "전체 색상 오프셋의 순도"
 
 #: ../src/iop/colorbalancergb.c:1898
 msgctxt "section"
@@ -18070,7 +18070,7 @@ msgstr "쉐도우 증폭의 색조"
 
 #: ../src/iop/colorbalancergb.c:1917
 msgid "chroma of the color gain in shadows"
-msgstr "쉐도우 증폭의 채도(크로마)"
+msgstr "쉐도우 증폭의 순도"
 
 #: ../src/iop/colorbalancergb.c:1919
 msgctxt "section"
@@ -18091,7 +18091,7 @@ msgstr "하이라이트 색상 게인의 색조"
 
 #: ../src/iop/colorbalancergb.c:1938
 msgid "chroma of the color gain in highlights"
-msgstr "하이라이트 색상 게인의 채도(크로마)"
+msgstr "하이라이트 색상 게인의 순도"
 
 #: ../src/iop/colorbalancergb.c:1940
 msgctxt "section"
@@ -18112,7 +18112,7 @@ msgstr "중간 톤 색상 지수의 색조"
 
 #: ../src/iop/colorbalancergb.c:1959
 msgid "chroma of the color exponent in mid-tones"
-msgstr "중간 톤 색상 지수의 채도(크로마)"
+msgstr "중간 톤 색상 지수의 순도"
 
 #. Page masks
 #: ../src/iop/colorbalancergb.c:1962
@@ -18285,11 +18285,11 @@ msgstr "초록-마젠타 오프셋"
 msgid ""
 "adjust target color Lab 'b' channel\n"
 "lower values shift target color towards blues while higher shift towards yellows"
-msgstr "대상 색상의 Lab 'b' 채널 조절값을 낮추면 대상 색상이 파란색 쪽으로,높이면 노란색 쪽으로 색상이 이동합니다"
+msgstr "대상 색상의 Lab 'b' 채널 조절값을 낮추면 대상 색상이 파랑 쪽으로,높이면 노랑 쪽으로 색상이 이동합니다"
 
 #: ../src/iop/colorchecker.c:1588
 msgid "blue-yellow offset"
-msgstr "파란색-노란색 오프셋"
+msgstr "파랑-노랑 오프셋"
 
 #: ../src/iop/colorchecker.c:1597
 msgid ""
@@ -18344,7 +18344,7 @@ msgid ""
 "lower values desaturate blues and yellows while higher saturate them"
 msgstr ""
 "Lab 공간에서 b* 곡선의 기울기를 조절\n"
-"값을 낮추면 파란색과 노란색의 채도가 줄고, 높이면 채도가 증가합니다"
+"값을 낮추면 파랑과 노랑의 채도가 줄고, 높이면 채도가 증가합니다"
 
 #: ../src/iop/colorcorrection.c:68
 msgid "color correction"
@@ -18380,7 +18380,7 @@ msgstr "색상 이퀄라이저"
 
 #: ../src/iop/colorequal.c:206
 msgid "color zones|hsl"
-msgstr "색상 존|hsl"
+msgstr "색상 영역|hsl"
 
 #: ../src/iop/colorequal.c:213
 msgid ""
@@ -18475,8 +18475,8 @@ msgid ""
 "set radius of the guided filter chroma analysis (hue).\n"
 "increase if there is large local variance of hue or strong chroma noise."
 msgstr ""
-"가이드 필터의 색도 (색조) 분석 반지름을 설정합니다.\n"
-"색조 변화가 크거나 크로마 노이즈가 심할 경우, 값을 높이면 개선됩니다."
+"가이드 필터의 색상 분석 반지름을 설정합니다.\n"
+"색상 변화가 크거나 색상 노이즈가 심할 경우, 값을 높이면 개선됩니다."
 
 #: ../src/iop/colorequal.c:3158
 msgid ""
@@ -18484,7 +18484,7 @@ msgid ""
 "red shows possibly changed data, blueish parts will not be changed."
 msgstr ""
 "변경된 출력에 적용된 가중치 함수를 시각화하고 가중치 곡선을 확인합니다.\n"
-"빨간색은 변경 가능성이 있는 데이터를, 파란색은 변경되지 않을 영역을 나타냅니다."
+"빨강은 변경 가능성이 있는 데이터를, 파랑은 변경되지 않을 영역을 나타냅니다."
 
 #: ../src/iop/colorequal.c:3162
 msgid ""
@@ -18518,7 +18518,7 @@ msgid ""
 "red shows increased values, blue decreased."
 msgstr ""
 "선택한 탭의 변경된 출력을 시각화합니다.\n"
-"빨간색은 값이 증가한 영역, 파란색은 감소한 영역을 나타냅니다."
+"빨강은 값이 증가한 영역, 파랑은 감소한 영역을 나타냅니다."
 
 #: ../src/iop/colorin.c:120
 msgid "input color profile"
@@ -18821,11 +18821,11 @@ msgstr "색상 영역"
 
 #: ../src/iop/colorzones.c:141
 msgid "selectively shift hues, chroma and lightness of pixels"
-msgstr "픽셀의 색조, 색도, 명도를 선택적으로 조정"
+msgstr "픽셀의 색조, 순도, 명도를 선택적으로 조정"
 
 #: ../src/iop/colorzones.c:668
 msgid "B&W: with red"
-msgstr "흑백: 빨간색 포함"
+msgstr "흑백: 빨강 포함"
 
 #: ../src/iop/colorzones.c:691
 msgid "B&W: with skin tones"
@@ -18953,8 +18953,8 @@ msgid ""
 " - static: fast, only uses the threshold as a static limit"
 msgstr ""
 "색상 보호 방식:\n"
-" - 글로벌 평균: 빠르지만 고배율에서 미리 보기가 다를 수 있음;때로는 채도를 과도하게 보호하거나 너무 약하게 보호할 수 있음\n"
-" - 지역 평균: 느리지만 주변 픽셀을 색상 기준으로 사용해 글로벌 평균보다 채도를 더 정확하게 보호함. 필요한 경우 더 많은 채도 감소 허용\n"
+" - 전체 평균: 빠르지만 고배율에서 미리 보기가 다를 수 있음;때로는 채도를 과도하게 보호하거나 너무 약하게 보호할 수 있음\n"
+" - 지역 평균: 느리지만 주변 픽셀을 색상 기준으로 사용해 전체 평균보다 채도를 더 정확하게 보호함. 필요한 경우 더 많은 채도 감소 허용\n"
 " - 정적: 빠르며 임계값만을 기준으로 고정된 한계를 사용함"
 
 #: ../src/iop/defringe.c:410
@@ -19137,7 +19137,7 @@ msgstr "자르기 또는 너무 많이 확대하여 반지름 계산이 부정�
 
 #: ../src/iop/denoiseprofile.c:807
 msgid "wavelets: chroma only"
-msgstr "웨이블릿: 색조만"
+msgstr "웨이블릿: 색상만"
 
 #: ../src/iop/denoiseprofile.c:813
 msgid "denoise (profiled)"
@@ -19187,7 +19187,7 @@ msgstr ""
 
 #: ../src/iop/denoiseprofile.c:3826
 msgid "variance computed on the red channel"
-msgstr "빨간색 채널에서 계산된 분산"
+msgstr "빨강 채널에서 계산된 분산"
 
 #: ../src/iop/denoiseprofile.c:3830
 msgid "variance computed on the green channel"
@@ -19195,11 +19195,11 @@ msgstr "초록색 채널에서 계산된 분산"
 
 #: ../src/iop/denoiseprofile.c:3835
 msgid "variance computed on the blue channel"
-msgstr "파란색 채널에서 계산된 분산"
+msgstr "파랑 채널에서 계산된 분산"
 
 #: ../src/iop/denoiseprofile.c:3838
 msgid "variance red: "
-msgstr "빨간색 분산: "
+msgstr "빨강 분산: "
 
 #: ../src/iop/denoiseprofile.c:3839
 msgid "variance green: "
@@ -19207,7 +19207,7 @@ msgstr "초록색 분산: "
 
 #: ../src/iop/denoiseprofile.c:3840
 msgid "variance blue: "
-msgstr "파란색 분산: "
+msgstr "파랑 분산: "
 
 #: ../src/iop/denoiseprofile.c:3848 ../src/libs/export.c:1587
 #: ../src/libs/print_settings.c:2503 ../src/libs/print_settings.c:2859
@@ -19286,7 +19286,7 @@ msgstr ""
 "알고리즘 내부에서 사용되는 색상 표현 방식.\n"
 "RGB는 RGB 채널을 분리된 상태로 유지하며,\n"
 "Y0U0V0는 채널을 결합하여\n"
-"색차와 휘도를 분리하여 노이즈를 제거합니다."
+"색상과 밝기를 분리하여 노이즈를 제거합니다."
 
 #: ../src/iop/denoiseprofile.c:3914
 msgid ""
@@ -19335,7 +19335,7 @@ msgid ""
 msgstr ""
 "파라메터가 자동 설정 방식 조절\n"
 "쉐도우 영역의 노이즈가 충분히 제거되지 않거나\n"
-"색차 노이즈가 남아 있는 경우 값을 높이세요.\n"
+"색상 노이즈가 남아 있는 경우 값을 높이세요.\n"
 "이는 이미지가 노출 부족일 때 발생할 수 있습니다."
 
 #: ../src/iop/denoiseprofile.c:3941
@@ -19876,8 +19876,8 @@ msgid ""
 "if poorly set, it will clip near-black colors out of gamut\n"
 "by pushing RGB values into negatives."
 msgstr ""
-"음수 RGB 값을 클리핑하지 않도록 블랙 레벨 조정\n"
-"검정 밀도를 높이기 위해 이 기능을 사용해서는 안 됩니다.\n"
+"음수 RGB 값을 클리핑하지 않도록 흑색 레벨 조정\n"
+"흑색 밀도를 높이기 위해 이 기능을 사용해서는 안 됩니다.\n"
 "잘못 설정하면 RGB 값이 음수로 밀리며\n"
 "암부 색상이 색상 영역 밖으로 클리핑될 수 있습니다."
 
@@ -20118,7 +20118,7 @@ msgid ""
 "luminance of output pure black, this should be 0%\n"
 "except if you want a faded look"
 msgstr ""
-"출력 순수 흑색의 휘도는 일반적으로 0%로 설정하지만,\n"
+"출력 순흑색의 휘도는 일반적으로 0%로 설정하지만,\n"
 "바랜 느낌을 원할 경우 예외적으로 조정할 수 있습니다"
 
 #: ../src/iop/filmic.c:1594 ../src/iop/filmicrgb.c:4556
@@ -20181,7 +20181,7 @@ msgid ""
 "while preventing clipping in non-destructive ways"
 msgstr ""
 "장면 기준 파이프라인을 SDR 화면이나 인쇄물에\n"
-"출력할 수 있도록 보기 변환을 적용합니다\n"
+"출력할 수 있도록 보기 변환을 적용\n"
 "클리핑 없이 출력할 수 있도록 비파괴 방식으로 처리합니다"
 
 #: ../src/iop/filmicrgb.c:1316
@@ -20348,7 +20348,7 @@ msgstr "하이라이트 복원 매스크 표시"
 #: ../src/iop/filmicrgb.c:4468
 msgctxt "section"
 msgid "balance"
-msgstr "균형"
+msgstr "밸런스"
 
 #: ../src/iop/filmicrgb.c:4474
 #, no-c-format
@@ -20442,7 +20442,7 @@ msgid ""
 "v3 is darktable 3.0 desaturation method, same as color balance.\n"
 "v4 is a newer desaturation method, based on spectral purity of light."
 msgstr ""
-"v3는 darktable 3.0의 채도 감소 방법으로, 색상 균형과 동일한 방식입니다.\n"
+"v3는 darktable 3.0의 채도 감소 방법으로, 컬러 밸런스와 동일한 방식입니다.\n"
 "v4는 빛의 스펙트럼 순도를 기반으로 한 새로운 채도 감소 방법입니다."
 
 #: ../src/iop/filmicrgb.c:4576
@@ -20452,7 +20452,7 @@ msgid ""
 "so ensure they are properly corrected elsewhere."
 msgstr ""
 "원래 색상이 유지되도록 합니다.\n"
-"색수차와 색도 노이즈가 더 뚜렷해질 수 있으므로,\n"
+"색수차와 색상 노이즈가 더 뚜렷해질 수 있으므로,\n"
 "다른 곳에서 적절히 보정되었는지 확인하세요."
 
 #: ../src/iop/filmicrgb.c:4585
@@ -20601,7 +20601,7 @@ msgstr "디스플레이 인코딩"
 
 #: ../src/iop/globaltonemap.c:97
 msgid "global tonemap"
-msgstr "글로벌 톤맵"
+msgstr "전체 톤맵"
 
 #: ../src/iop/globaltonemap.c:102
 msgid "this module is deprecated. please use the filmic rgb module instead."
@@ -20613,7 +20613,7 @@ msgstr "연산자"
 
 #: ../src/iop/globaltonemap.c:642
 msgid "the global tonemap operator"
-msgstr "글로벌 톤맵 연산자"
+msgstr "전체 톤맵 연산자"
 
 #: ../src/iop/globaltonemap.c:645
 msgid "the bias for tonemapper controls the linearity, the higher the more details in blacks"
@@ -20653,7 +20653,7 @@ msgstr "틴트 | 주황색 ND2 (소프트)"
 
 #: ../src/iop/graduatednd.c:87
 msgid "tinted | yellow ND2 (soft)"
-msgstr "틴트 | 노란색 ND2 (소프트)"
+msgstr "틴트 | 노랑 ND2 (소프트)"
 
 #: ../src/iop/graduatednd.c:91
 msgid "tinted | purple ND2 (soft)"
@@ -20665,11 +20665,11 @@ msgstr "틴트 | 초록 ND2 (소프트)"
 
 #: ../src/iop/graduatednd.c:99
 msgid "tinted | red ND2 (soft)"
-msgstr "틴트 | 빨간색 ND2 (소프트)"
+msgstr "틴트 | 빨강 ND2 (소프트)"
 
 #: ../src/iop/graduatednd.c:102
 msgid "tinted | blue ND2 (soft)"
-msgstr "틴트 | 파란색 ND2 (소프트)"
+msgstr "틴트 | 파랑 ND2 (소프트)"
 
 #: ../src/iop/graduatednd.c:106
 msgid "tinted | brown ND4 (soft)"
@@ -22052,27 +22052,27 @@ msgstr "색상 그레이딩을 위한 RGB 기본색상 조정"
 
 #: ../src/iop/primaries.c:384
 msgid "shift red towards yellow or magenta"
-msgstr "빨간색을 노란색 또는 마젠타 방향으로 이동"
+msgstr "빨강을 노랑 또는 마젠타 방향으로 이동"
 
 #: ../src/iop/primaries.c:385
 msgid "red primary purity"
-msgstr "빨간색 기본 순도"
+msgstr "빨강 기본색상 순도"
 
 #: ../src/iop/primaries.c:386
 msgid "shift green towards cyan or yellow"
-msgstr "초록색을 시안 또는 노란색 방향으로 이동"
+msgstr "초록색을 시안 또는 노랑 방향으로 이동"
 
 #: ../src/iop/primaries.c:387
 msgid "green primary purity"
-msgstr "초록색 기본 순도"
+msgstr "초록 기본색상 순도"
 
 #: ../src/iop/primaries.c:388
 msgid "shift blue towards magenta or cyan"
-msgstr "파란색을 마젠타 또는 시안 방향으로 이동"
+msgstr "파랑을 마젠타 또는 시안 방향으로 이동"
 
 #: ../src/iop/primaries.c:389
 msgid "blue primary purity"
-msgstr "파란색 기본 순도"
+msgstr "파랑 기본색상 순도"
 
 #: ../src/iop/profile_gamma.c:93
 msgid "unbreak input profile"
@@ -22119,7 +22119,7 @@ msgid ""
 "number of stops between middle gray and pure black\n"
 "this is a reading a light meter would give you on the scene"
 msgstr ""
-"중간 회색값과 순 사이의 스톱 수\n"
+"중간 회색값과 순흑색 사이의 스톱 수\n"
 "이는 장면에서 측광기가 제공하는 측정값입니다"
 
 #: ../src/iop/profile_gamma.c:636
@@ -22157,7 +22157,7 @@ msgstr "RAW 노이즈 제거"
 
 #: ../src/iop/rawdenoise.c:139
 msgid "denoise the raw image early in the pipeline"
-msgstr "RAW 이미지에서 초기에 노이즈를 제거합니다"
+msgstr "파이프라인 초기에 RAW 이미지 노이즈 제거"
 
 #: ../src/iop/rawdenoise.c:927
 msgid ""
@@ -22418,7 +22418,7 @@ msgstr "힐링 도구 활성화"
 
 #: ../src/iop/retouch.c:2491
 msgid "ctrl+click to change tool for current form"
-msgstr "Ctrl+클릭으로 현재 도형에 사용할 도구 변경"
+msgstr "Ctrl+클릭으로 현재 폼에 사용할 도구 변경"
 
 #: ../src/iop/retouch.c:2492
 msgid "shift+click to set the tool as default"
@@ -22649,7 +22649,7 @@ msgid ""
 "\n"
 "you should not touch values here!"
 msgstr ""
-"RAW 센서 기술ㅈ 설정용 내부 모듈입니다. \n"
+"RAW 센서 기술적 설정용 내부 모듈입니다. \n"
 "\n"
 "여기서 값을 변경하지 마세요!"
 
@@ -22761,7 +22761,7 @@ msgid ""
 "on a screen or print using a robust and smooth\n"
 "tone curve with optional color preservation methods"
 msgstr ""
-"이미지를 화면이나 인쇄용으로 표시할 수 있도록 뷰 변환을 적용합니다\n"
+"이미지를 화면이나 인쇄용으로 표시할 수 있도록 뷰 변환을 적용\n"
 "견고하고 부드러운 톤 곡선을 사용하며,\n"
 "선택적으로 색상 보존 방식도 적용할 수 있습니다"
 
@@ -22819,27 +22819,27 @@ msgstr ""
 
 #: ../src/iop/sigmoid.c:950
 msgid "attenuate the purity of the red primary"
-msgstr "빨강 원색의 채도 감소"
+msgstr "빨강 기본색상의 순도 감소"
 
 #: ../src/iop/sigmoid.c:951
 msgid "rotate the red primary"
-msgstr "빨강 원색 회전"
+msgstr "빨강 기본색상 회전"
 
 #: ../src/iop/sigmoid.c:952
 msgid "attenuate the purity of the green primary"
-msgstr "초록 원색의 채도 감소"
+msgstr "초록 기본색상의 채도 감소"
 
 #: ../src/iop/sigmoid.c:953
 msgid "rotate the green primary"
-msgstr "초록 원색 회전"
+msgstr "초록 기본색상 회전"
 
 #: ../src/iop/sigmoid.c:954
 msgid "attenuate the purity of the blue primary"
-msgstr "파랑 원색의 채도 감소"
+msgstr "파랑 기본색상의 채도 감소"
 
 #: ../src/iop/sigmoid.c:955
 msgid "rotate the blue primary"
-msgstr "파랑 원색 회전"
+msgstr "파랑 기본색상 회전"
 
 #: ../src/iop/sigmoid.c:962
 msgid "recover some of the original purity after the inset"
@@ -23017,7 +23017,7 @@ msgstr "`%s'에서 카메라 화이트 밸런스 정보를 읽는 데 실패했�
 #: ../src/iop/temperature.c:1668
 msgctxt "white balance"
 msgid "as shot"
-msgstr "촬영 당시"
+msgstr "촬영된 그대로"
 
 #. old "spot", reason: describes exactly what'll happen
 #: ../src/iop/temperature.c:1671
@@ -23039,7 +23039,7 @@ msgstr "카메라 기준값"
 #: ../src/iop/temperature.c:1675
 msgctxt "white balance"
 msgid "as shot to reference"
-msgstr "촬영 당시 설정을 기준값으로 변환"
+msgstr "촬영된 대로 참조"
 
 #: ../src/iop/temperature.c:1981 ../src/iop/temperature.c:1999
 msgid "green channel coefficient"
@@ -23075,7 +23075,7 @@ msgstr "에메랄드 채널 계수"
 
 #: ../src/iop/temperature.c:2077
 msgid "as shot"
-msgstr "촬영 당시"
+msgstr "촬영된 그대로"
 
 #: ../src/iop/temperature.c:2080
 msgid "set white balance to as shot"
@@ -23107,7 +23107,7 @@ msgstr ""
 
 #: ../src/iop/temperature.c:2112
 msgid "as shot to reference"
-msgstr "촬영 당시 설정을 기준값으로 변환"
+msgstr "촬영된 대로 참조"
 
 #: ../src/iop/temperature.c:2117
 msgid ""
@@ -23458,10 +23458,10 @@ msgid ""
 "'EIGF' (exposure-independent guided filter) is a guided filter that is exposure-independent, it smooths shadows and highlights the same way (contrary to guided filter which smooths less the highlights)\n"
 "'averaged EIGF' is a geometric mean of 'no' and 'exposure-independent guided filter' methods"
 msgstr ""
-"'없음'은 글로벌 및 부분 대비 모두에 영향을 줍니다 (대비만 추가할 경우 안전함)\n"
-"'가이드 필터'는 글로벌 대비에만 영향을 주며 지역 대비는 보존하려고 시도합니다\n"
+"'없음'은 전체 및 부분 대비 모두에 영향을 줍니다 (대비만 추가할 경우 안전함)\n"
+"'가이드 필터'는 전체 대비에만 영향을 주며 지역 대비는 보존하려고 시도합니다\n"
 "'평균 가이드 필터'는 '없음'과 '가이드 필터' 방법의 기하 평균입니다\n"
-"'EIGF'(노출 독립 가이드 필터)는 노출에 관계없이 작동하는 가이드 필터로, 쉐도우와하이라이트를 동일하게 부드럽게 처리합니다(일반 가이드 필터는 하이라이트를 덜 부드럽게 처리함)\n"
+"'EIGF'(노출 독립 가이드 필터)는 노출에 관계없이 작동하는 가이드 필터로, 쉐도우와 하이라이트를 동일하게 부드럽게 처리합니다(일반 가이드 필터는 하이라이트를 덜 부드럽게 처리함)\n"
 "'평균 EIGF'는 '없음'과 '노출 독립 가이드 필터' 방법의 기하 평균입니다"
 
 #: ../src/iop/toneequal.c:3363
@@ -24020,7 +24020,7 @@ msgstr "이미지 제외"
 
 #: ../src/libs/collect.c:3277
 msgid "change to: and"
-msgstr "다음으로 변경: "
+msgstr "다음으로 변경: and"
 
 #: ../src/libs/collect.c:3284
 msgid "change to: or"
@@ -24158,7 +24158,7 @@ msgstr "샘플을 이미지/벡터스코프 위에 표시"
 
 #: ../src/libs/colorpicker.c:828
 msgid "display samples"
-msgstr "화면에 샘플 표시"
+msgstr "샘플 표시"
 
 #: ../src/libs/colorpicker.c:839
 msgid "restrict scope to selection"
@@ -24546,7 +24546,7 @@ msgstr "포멧 옵션"
 #: ../src/libs/export.c:1678
 msgctxt "section"
 msgid "global options"
-msgstr "글로벌 옵션"
+msgstr "전체 옵션"
 
 #: ../src/libs/export.c:1688
 msgid "multi-preset export"
@@ -24863,7 +24863,7 @@ msgstr "내림차순"
 
 #: ../src/libs/filtering.c:2102
 msgid "ASC"
-msgstr "오름차순"
+msgstr "ASC"
 
 #: ../src/libs/filtering.c:2210
 msgid "new rule"
@@ -25044,7 +25044,7 @@ msgstr "평가되지 않은 항목만 보기"
 
 #: ../src/libs/filters/rating_range.c:296
 msgid "better"
-msgstr "등급 높은 순"
+msgstr "더 좋은"
 
 #: ../src/libs/filters/rating_range.c:297
 msgid "worse"
@@ -25207,7 +25207,7 @@ msgstr "GPX 트랙 파일 적용..."
 
 #: ../src/libs/geotagging.c:1861
 msgid "parses a GPX file and updates location of selected images"
-msgstr "GPX 파일을 분석하여 선택된 이미지의 위치 정보를 업데이트"
+msgstr "GPX 파일을 분석하여, 선택된 이미지의 위치 정보를 업데이트"
 
 #: ../src/libs/geotagging.c:1872
 msgctxt "section"
@@ -25346,7 +25346,7 @@ msgstr "Shift+스크롤로 너비 조절"
 
 #: ../src/libs/histogram.c:1676
 msgid "alt+scroll to cycle"
-msgstr "Alt+스크롤로 모드 순차 전환"
+msgstr "Alt+스크롤하여 순환"
 
 #: ../src/libs/histogram.c:1688
 msgid "drag to change black point"
@@ -25439,7 +25439,7 @@ msgid ""
 "- shift-click to focus that module without\n"
 "  changing the edit state"
 msgstr ""
-"편집 작업 순서를 표시합니다\n"
+"편집 작업 순서를 표시\n"
 "- 항목을 클릭하여 일시적으로 이전 편집 상태로 돌아가려면\n"
 "  이전 편집 상태로 돌아갑니다\n"
 "  (경고: 모든 편집 내용이 이전 상태로 돌아가서\n"
@@ -25621,11 +25621,11 @@ msgstr "EXIF 데이터를 기준으로 회전 초기화"
 
 #: ../src/libs/image.c:575
 msgid "copy locally"
-msgstr "로컬로 복사"
+msgstr "로컬에 복사"
 
 #: ../src/libs/image.c:577
 msgid "copy the image locally"
-msgstr "이미지를 로컬로 복사"
+msgstr "이미지를 로컬에 복사"
 
 #: ../src/libs/image.c:581
 msgid "resync local copy"
@@ -25751,7 +25751,7 @@ msgstr "이 카메라는 테더 촬영 및 가져오기 미지원"
 
 #: ../src/libs/import.c:352 ../src/libs/import.c:373
 msgid "mount camera"
-msgstr "카메라 마운트"
+msgstr "카메라 연결"
 
 #: ../src/libs/import.c:998
 #, c-format
@@ -26167,7 +26167,7 @@ msgstr "처리 모듈에서 사용하는 매스크 도형 편집"
 
 #: ../src/libs/masks.c:109
 msgid "feather"
-msgstr "가장자리 블러"
+msgstr "페더"
 
 #: ../src/libs/masks.c:356
 #, c-format
@@ -26281,7 +26281,7 @@ msgstr "XMP 태그 이름"
 
 #: ../src/libs/metadata.c:890
 msgid "display name"
-msgstr "표시 이름"
+msgstr "디스플레이 이름"
 
 #: ../src/libs/metadata.c:900 ../src/libs/metadata_view.c:1470
 msgid "visible"
@@ -28002,12 +28002,12 @@ msgstr "그룹화"
 #: ../src/libs/tools/global_toolbox.c:392
 #: ../src/libs/tools/global_toolbox.c:540
 msgid "expand grouped images"
-msgstr "그룹 이미지 펼침"
+msgstr "이미지 묶음 펼침"
 
 #: ../src/libs/tools/global_toolbox.c:394
 #: ../src/libs/tools/global_toolbox.c:542
 msgid "collapse grouped images"
-msgstr "그룹 이미지 접기"
+msgstr "이미지 묶음 접기"
 
 #: ../src/libs/tools/global_toolbox.c:401
 msgid "thumbnail overlays options"
@@ -28110,7 +28110,7 @@ msgstr ""
 
 #: ../src/libs/tools/global_toolbox.c:513
 msgid "show global preferences"
-msgstr "글로벌 환경설정 표시"
+msgstr "전체 환경설정 표시"
 
 #: ../src/libs/tools/hinter.c:42
 msgid "hinter"
@@ -28514,7 +28514,7 @@ msgstr "단색으로 마킹"
 
 #: ../src/views/darkroom.c:2584
 msgid "false color"
-msgstr "가짜 색상"
+msgstr "가상 색상"
 
 #: ../src/views/darkroom.c:2589 ../src/views/darkroom.c:2659
 msgid "color scheme"
@@ -28531,7 +28531,7 @@ msgstr ""
 #: ../src/views/darkroom.c:2593
 msgctxt "solidcolor"
 msgid "red"
-msgstr "빨간색"
+msgstr "빨강"
 
 #: ../src/views/darkroom.c:2594
 msgctxt "solidcolor"
@@ -28541,12 +28541,12 @@ msgstr "초록색"
 #: ../src/views/darkroom.c:2595
 msgctxt "solidcolor"
 msgid "blue"
-msgstr "파란색"
+msgstr "파랑"
 
 #: ../src/views/darkroom.c:2596
 msgctxt "solidcolor"
 msgid "black"
-msgstr "검정색"
+msgstr "흑색"
 
 #: ../src/views/darkroom.c:2607
 msgid ""
@@ -28600,7 +28600,7 @@ msgstr "클리핑 표시 색상 선택"
 
 #: ../src/views/darkroom.c:2664
 msgid "red & blue"
-msgstr "빨간색 & 파란색"
+msgstr "빨강 & 파랑"
 
 #: ../src/views/darkroom.c:2665
 msgid "purple & green"
@@ -28692,7 +28692,7 @@ msgstr "두번째 미리보기 창 색상 평가"
 
 #: ../src/views/darkroom.c:2792
 msgid "color assessment second preview"
-msgstr "색상 평가 세컨드 프리뷰"
+msgstr "색상 평가 두 번째 미리보기"
 
 #: ../src/views/darkroom.c:2840 ../src/views/lighttable.c:1305
 msgid "display ICC profiles"
